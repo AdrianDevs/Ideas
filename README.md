@@ -8,7 +8,17 @@ An Web-App that is about my, my knowledge and my dreams.
 
 # Technical
 
+## Requirements
+
+- Mac OS 13.1 or later
+- Git installed
+- NPM installed
+
 ## Download
+
+```sh
+git clone https://github.com/AdrianDevs/ideas.git
+```
 
 ## Run Locally
 
@@ -46,6 +56,8 @@ You can preview the production build with `npm run preview`.
 
 ## Features
 
+- Svelte
+- SvelteKit
 - Tailwind
 - Authentication
 - ESLint and GitHooks
@@ -72,8 +84,10 @@ You can preview the production build with `npm run preview`.
 
 ## Agile Roadmap & Estimating
 
-## Tetris
+## GitFlow Interaction
 
 ## Minesweeper
 
 ## Tic Tac Toe
+
+## Tetris
