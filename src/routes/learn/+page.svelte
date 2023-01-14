@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Tech</title>
-	<meta name="description" content="Tech I like" />
+	<title>Learn</title>
+	<meta name="description" content="Learning Svelte" />
 </svelte:head>
 
 <h1>Learnings</h1>
