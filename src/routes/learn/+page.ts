@@ -1,6 +1,6 @@
 // export const ssr = true
 // export const csr = false
-import { error } from '@sveltejs/kit';
+// import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
 

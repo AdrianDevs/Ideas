@@ -1,3 +1,8 @@
+.post.content > p {
+	color: purple;
+	font-weight: bold;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

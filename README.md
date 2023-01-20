@@ -79,6 +79,7 @@ vercel
 - Authentication
 - ESLint and GitHooks
 - Testing
+- Markdown blog with mdsvex and grey-matter
 
 # Links
 
