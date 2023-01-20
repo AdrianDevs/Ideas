@@ -16,7 +16,7 @@
 	<h1 class="justify-self-center">Software Engineer</h1>
 </section> -->
 
-<section class="flex-cols-3 flex justify-center gap-x-8 bg-gray-100 py-4">
+<section class="flex-cols-3 flex justify-center gap-x-8 bg-gray-100 py-4 ">
 	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
 		Adrian Van Nierop
 	</h1>
@@ -30,7 +30,7 @@
 	</h1>
 </section>
 
-<section class="flex-cols-2 mt-8 flex justify-center gap-x-16">
+<section class="flex-cols-2 mx-4 mt-8 flex justify-center gap-x-16">
 	<div class="w-640 flex-initial space-y-2">
 		<h2 class="text-3xl">Experience</h2>
 
