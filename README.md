@@ -1,6 +1,6 @@
 <h1>Ideas</h1>
 
-An Web-App that is about my, my knowledge and my dreams.
+An Web-App that is about me, my knowledge and my dreams.
 
 <h2>Tables of Contents</h2>
 
@@ -82,12 +82,20 @@ You can preview the production build with `npm run preview`.
 * Tech I want
 * Travel
 
+## Blog
+
+Markdown blog using MDsveX
+
+# Links
+
 ## Agile Roadmap & Estimating
+
+## Markdown Editor
 
 ## GitFlow Interaction
 
 ## Minesweeper
 
-## Tic Tac Toe
+## Tic Tac Toe`
 
 ## Tetris

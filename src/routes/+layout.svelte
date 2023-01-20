@@ -31,7 +31,7 @@
 	<div class="visible xs:collapse">So smol</div>
 
 	<footer class="collapse bg-gray-100 py-4 text-center text-black sm:visible">
-		Tailwind is Awesome 😎
+		Typescript, Tailwind and Svelte are Awesome 😎
 	</footer>
 </div>
 
