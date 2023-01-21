@@ -1,6 +1,6 @@
 interface metadata {
-    title: string | null,
-    date: string | null,
+    title: string,
+    date: string,
     tags: string[]
 }
 
@@ -23,7 +23,7 @@ export const getMarkdownPostsMetadata = async () => {
       // const metadata = post.metadata 
       let metadata: metadata = {
         title: "unknown",
-        date: null,
+        date: "2019-01-01",
         tags: []
       }
       if (post.metadata) {
@@ -35,7 +35,6 @@ export const getMarkdownPostsMetadata = async () => {
       // console.log("filepath:", filepath)
       // console.log("metadata:", metadata)
       
-
       return {
         filename: filename,
         filepath: filepath,
@@ -43,5 +42,14 @@ export const getMarkdownPostsMetadata = async () => {
       }
     })
   )
-  return allPostFilesMetadata
+  // return allPostFilesMetadata
+
+  // Sort posts by date
+  return allPostFilesMetadata.sort(({ metadata: a }, { metadata: b }) => {
+    if (a.date < b.date) {
+      return 1;
+    } else {
+      return -1;
+    }
+  });
 }

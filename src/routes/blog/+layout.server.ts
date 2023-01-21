@@ -4,6 +4,7 @@ import { getMarkdownPostsMetadata } from '$lib/posts';
 
 export const load = (async () => {
   const mdPostsMetaData = await getMarkdownPostsMetadata();
+
   if (mdPostsMetaData) {
     return {posts: mdPostsMetaData};
   }
