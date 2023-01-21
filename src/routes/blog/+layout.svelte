@@ -1,4 +1,5 @@
 <script lang="ts">
+	import postcss from 'postcss';
 	import type { LayoutData } from './$types';
 	export let data: LayoutData;
 </script>
@@ -14,12 +15,12 @@
 	<h2 class="font-bold text-black">Posts</h2>
 	<ul>
 		<!-- {data.posts} -->
-		{#each data.posts as post (post.id)}
+		{#each data.posts as post (post.filename)}
 			<li>
-				<h4>id: {post.id}</h4>
-				<h4>date: {post.date}</h4>
-				<h4>title: {post.title}</h4>
-				<a class="text-blue-500" href="/blog/{post.id}">link</a>
+				<h4>title: {post.metadata.title}</h4>
+				<h4>date: {post.metadata.date}</h4>
+				<h4>id: {post.filename}</h4>
+				<a class="text-blue-500" href="/blog/{post.filename}">link</a>
 			</li>
 		{/each}
 	</ul>

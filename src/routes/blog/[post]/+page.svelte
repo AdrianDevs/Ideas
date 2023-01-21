@@ -11,9 +11,8 @@
 <div class="text-center text-lg font-bold text-black">Post Details</div>
 <div>{data.title}</div>
 <div>Published: {data.date}</div>
-<div class="post content">
-	<svelte:component this={data.content} />
-</div>
+<svelte:component this={data.content} />
+<div />
 
 <!-- <style>
 	.post.content {

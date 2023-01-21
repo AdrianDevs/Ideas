@@ -1,88 +1,47 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { compile } from 'mdsvex'
-
-const postsDirectory = path.join(process.cwd(), 'src/posts')
-
-export type PostId = {
-  id: string;
-};
-
-export type PostParams = {
-  params: PostId;
-};
-
-export function getPostsDirectory(): string {
-  return postsDirectory
+interface metadata {
+    title: string | null,
+    date: string | null,
+    tags: string[]
 }
 
-// export function postsTestFunction() {
-//   return fs.readdirSync(postsDirectory);
-// }
-
-export function getSortedPostsData() {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '');
-
-    // Read markdown file as string
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
-    const title: string = matterResult.data.title;
-    const date: string = matterResult.data.date;
-
-    // Combine the data with the id
-     // Combine the data with the id
-     return {
-      id,
-      title,
-      date,
-    };
-  });
-  // Sort posts by date
-  return allPostsData.sort(({ date: a }, { date: b }) => {
-    if (a < b) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
+interface post {
+  metadata: metadata
 }
 
-export async function getPostData(id: string) {
-  // const post = await import(`../${id}.md`)
-  // const { title, date } = post.metadata
-  // const content = post.default
+export const getMarkdownPostsMetadata = async () => {
+  const allPostFiles = import.meta.glob('../posts/*.md')
+  // console.log("allPostFiles:", allPostFiles)
 
+  const iterablePostFiles = Object.entries(allPostFiles)
+  // console.log("iterablePostFiles:", iterablePostFiles)
 
-  const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
+  const allPostFilesMetadata = await Promise.all(
+    iterablePostFiles.map(async ([filepath, resolver]) => {
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
-  const title: string = matterResult.data.title;
-  const date: string = matterResult.data.date;
+      const post = await resolver() as post
+      const filename = filepath.slice(9, -3)
+      // const metadata = post.metadata 
+      let metadata: metadata = {
+        title: "unknown",
+        date: null,
+        tags: []
+      }
+      if (post.metadata) {
+        metadata ={...metadata, ...post.metadata }
+      }
 
-  // Use remark to convert markdown into HTML string
-  // const processedContent = await remark().use(html).process(matterResult.content);
-  // const contentHtml = processedContent.toString();
-  
-  // Use mdsvex to convert markdown into svelte code
-  const processedContent = await compile((matterResult.content))
-  const code = processedContent?.code
+      // console.log("post:", post)
+      // console.log("filename:", filename)
+      // console.log("filepath:", filepath)
+      // console.log("metadata:", metadata)
+      
 
-  // Combine the data with the id
-  // Combine the data with the id and contentHtml
-  return {
-    id,
-    title,
-    date,
-    code,
-  };
+      return {
+        filename: filename,
+        filepath: filepath,
+        metadata: metadata
+      }
+    })
+  )
+  return allPostFilesMetadata
 }
