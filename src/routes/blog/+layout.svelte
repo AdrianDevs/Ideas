@@ -9,15 +9,16 @@
 	<meta name="description" content="Things I have experienced or taught myself" />
 </svelte:head>
 
-<section class="flex h-full">
-	<aside class="sticky top-0 w-48 shrink-0 overflow-y-auto bg-gray-50">
-		<h2 class="py-2 text-3xl">Posts</h2>
+<section class="flex h-full justify-center">
+	<!-- <aside class="sticky h-full w-[240px] shrink-0 overflow-y-auto bg-gray-500 px-4"> -->
+  <aside class="overflow-y-auto h-full w-[240px] shrink-0 bg-gray-100 px-4">
+    <h2 class="py-4 text-3xl">Posts</h2>
 		<!-- {data.posts} -->
 		<ul>
 			{#each data.posts as post (post.filename)}
 				<li class="py-2">
-					<a class="font-bold" href="/blog/{post.filename}">{post.metadata.title}</a>
-					<p class="ml-2 text-gray-500">{post.metadata.date}</p>
+					<a class="font-bold" href="/blog/{post.filename}">{post.title}</a>
+					<p class="ml-2 text-gray-500">{post.date}</p>
 				</li>
 			{/each}
 		</ul>
@@ -30,9 +31,22 @@
 		eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks
 		prettier eslint-config-prettier lint-staged husky import-sort-style-module prettier-plugin-import-sort
 	</code> -->
-	<main class="overflow-y-auto">
+
+	<!-- <main class="w-[900px] flex-initial justify-self-center overflow-y-auto">
+    <slot />
+  </main> -->
+  <div class="overflow-y-auto h-full flex-initial w-[900px] relative">
 		<slot />
-	</main>
+	</div>
+
+	<!-- <aside class="sticky top-0 w-[240px] shrink-0 overflow-y-auto bg-gray-50 px-4">
+		<h2 class="py-2 text-2xl">Contents</h2>
+		<ul>
+			<li class="py-2">Section 1</li>
+			<li class="py-2">Section 2</li>
+			<li class="py-2">Section 3</li>
+		</ul>
+	</aside> -->
 </section>
 
 <!-- <aside>

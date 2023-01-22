@@ -1,6 +1,8 @@
 ---
-title: 'Two Forms of Pre-rendering'
-date: '2020-01-01'
+title: 'When to Use Static Generation v.s. Server-side Rendering'
+date: '2020-01-10'
+slug: 'hello slug'
+tags: ['ssr', 'ssg']
 ---
 
 # Two Forms of Pre-rendering

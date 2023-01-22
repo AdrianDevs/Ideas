@@ -1,8 +1,43 @@
-/* .post.content > p {
-	color: purple;
-	font-weight: bold;
-} */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer components {
+	.markdown-post {
+		@apply flex h-full overflow-y-auto;
+	}
+
+	.markdown-post > main {
+		@apply prose prose-stone w-[660] flex-initial overflow-y-auto;
+	}
+
+	.markdown-post > nav {
+		@apply prose prose-stone w-[240] flex-initial overflow-y-auto;
+	}
+
+	.markdown-post ol {
+		@apply list-inside list-none;
+	}
+
+	.markdown-post a {
+		@apply text-blue-500;
+	}
+} */
+
+@layer components {
+	.markdown-post {
+		@apply prose prose-stone mr-[240px] h-full overflow-y-auto scroll-smooth pl-4 pt-4 pb-16;
+	}
+
+	.markdown-post > nav {
+		@apply absolute right-0 bottom-0 top-0 w-[240px] overflow-y-auto pb-16;
+	}
+
+	.markdown-post > nav ol {
+		@apply list-inside list-none;
+	}
+
+	.markdown-post > nav a {
+		@apply text-blue-500;
+	}
+}

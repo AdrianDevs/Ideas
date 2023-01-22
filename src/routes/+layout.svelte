@@ -23,15 +23,16 @@
 			>
 		{/each}
 	</header>
-	<main class="collapse flex-1 overflow-y-auto sm:visible">
+	<!-- <main class="collapse flex-1 overflow-y-auto sm:visible"> -->
+  <main class="overflow-y-auto collapse sm:visible">
 		<slot />
 	</main>
 
 	<div class="collapse xs:visible sm:collapse ">Too small</div>
 	<div class="visible xs:collapse">So smol</div>
 
-	<footer class="collapse bg-gray-100 py-4 text-center text-black sm:visible">
-		Typescript, Tailwind and Svelte are Awesome 😎
+	<footer class="collapse bg-gray-100 py-4 text-center text-black sm:visible ">
+		Typescript, Tailwind and SvelteKit are Awesome 😎
 	</footer>
 </div>
 
