@@ -7,12 +7,13 @@
 	<title>Blog</title>
 	<meta name="description" content="Things I have experienced or taught myself" />
 </svelte:head>
-
-<div class="text-center text-lg font-bold text-black">Post Details</div>
-<div>{data.title}</div>
-<div>Published: {data.date}</div>
-<svelte:component this={data.content} />
-<div />
+<div class="p-2">
+	<div class="text-3xl text-black">{data.title}</div>
+	<div class="text-xl text-gray-500">Published: {data.date}</div>
+	<div class="prose prose-slate">
+		<svelte:component this={data.content} />
+	</div>
+</div>
 
 <!-- <style>
 	.post.content {
