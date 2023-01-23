@@ -7,16 +7,19 @@
 	<meta name="description" content="A web-app all about me" />
 </svelte:head>
 
-<!-- <section class="flex-cols-3 mt-4 flex items-center justify-center justify-items-center gap-x-16">
-	<h1 class="justify-self-center">Adrian Van Nierop</h1>
-	<picture class="w-24 flex-none justify-self-center">
+<section class="hidden justify-center gap-x-4 bg-gray-100 py-4 xs:flex sm:hidden">
+	<picture class="flex-none">
 		<img class="object-center" alt="profile of me" src={me} />
 	</picture>
 
-	<h1 class="justify-self-center">Software Engineer</h1>
-</section> -->
+	<div class="flex-initial self-center">
+		<h1 class="text-center text-xl font-bold text-black">Adrian Van Nierop</h1>
 
-<section class="flex-cols-3 flex justify-center gap-x-8 bg-gray-100 py-4 ">
+		<h1 class="text-center text-xl font-bold text-black">Software Engineer</h1>
+	</div>
+</section>
+
+<section class="hidden justify-center gap-x-8 bg-gray-100 py-4 sm:flex">
 	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
 		Adrian Van Nierop
 	</h1>
@@ -25,13 +28,13 @@
 		<img class="object-center" alt="profile of me" src={me} />
 	</picture>
 
-	<h1 class="w-320  flex-initial self-center text-center text-xl font-bold text-black">
+	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
 		Software Engineer
 	</h1>
 </section>
 
-<section class="flex-cols-2 mx-4 mt-8 flex justify-center gap-x-16">
-	<div class="w-640 flex-initial space-y-2">
+<section class="mx-4 mt-8 flex justify-center gap-x-16 xs:flex-col sm:flex-row">
+	<div class="w-[880px] flex-initial space-y-2">
 		<h2 class="text-3xl">Experience</h2>
 
 		<div>
@@ -128,7 +131,7 @@
 		</div>
 	</div>
 
-	<div class="w-160 flex-initial">
+	<div class="grow-1 w-160 shrink pb-8">
 		<h2 class="text-3xl">Skills</h2>
 
 		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Tech</h3>

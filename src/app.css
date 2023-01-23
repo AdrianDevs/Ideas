@@ -25,12 +25,40 @@
 } */
 
 @layer components {
+	.main {
+		height: 100vh;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 1fr;
+		grid-template-areas:
+			'header'
+			'main';
+	}
+
+	.main > header {
+		grid-area: header;
+		/*/*padding: 12px 12px;*/
+	}
+
+	.main > content {
+		grid-area: main;
+		overflow: auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr auto;
+	}
+
+	.main > content > footer {
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
 	.markdown-post {
-		@apply prose prose-stone mr-[240px] h-full overflow-y-auto scroll-smooth pl-4 pt-4 pb-16;
+		@apply prose prose-stone mr-[240px] h-screen overflow-y-auto scroll-smooth pl-4 pt-4 pb-16;
 	}
 
 	.markdown-post > nav {
-		@apply absolute right-0 bottom-0 top-0 w-[240px] overflow-y-auto pb-16;
+		@apply absolute right-0 bottom-0 top-0 h-screen w-[240px] overflow-y-auto pb-16;
 	}
 
 	.markdown-post > nav ol {

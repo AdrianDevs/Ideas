@@ -2,6 +2,7 @@
 	import postcss from 'postcss';
 	import type { LayoutData } from './$types';
 	export let data: LayoutData;
+	import { getFrontMatter } from '$lib/posts';
 </script>
 
 <svelte:head>
@@ -11,8 +12,8 @@
 
 <section class="flex h-full justify-center">
 	<!-- <aside class="sticky h-full w-[240px] shrink-0 overflow-y-auto bg-gray-500 px-4"> -->
-  <aside class="overflow-y-auto h-full w-[240px] shrink-0 bg-gray-100 px-4">
-    <h2 class="py-4 text-3xl">Posts</h2>
+	<aside class="h-full w-[240px] shrink-0 overflow-y-auto bg-gray-100 px-4">
+		<h2 class="py-4 text-3xl">Posts</h2>
 		<!-- {data.posts} -->
 		<ul>
 			{#each data.posts as post (post.filename)}
@@ -35,7 +36,7 @@
 	<!-- <main class="w-[900px] flex-initial justify-self-center overflow-y-auto">
     <slot />
   </main> -->
-  <div class="overflow-y-auto h-full flex-initial w-[900px] relative">
+	<div class="relative h-full w-[900px] flex-initial overflow-y-auto">
 		<slot />
 	</div>
 
