@@ -1,3 +1,10 @@
+---
+title: 'Eslint and Prettier Setup for React Projects'
+date: '2021-10-12'
+slug: 'hello Eslint and Prettier'
+tags: ['Eslint', 'Prettier', 'Linting']
+---
+
 <h1>Eslint and Prettier Setup for React Projects</h1>
 
 How to setup up Eslint and Prettier for React projects so that you have code formatting and error checking on files saves and when commiting to Git.
@@ -8,11 +15,9 @@ How to setup up Eslint and Prettier for React projects so that you have code for
 ## Resources
 
 - ESLint (eslint): https://eslint.org/
-- Prettier:  https://prettier.io/docs/en/install.html
+- Prettier: https://prettier.io/docs/en/install.html
 - Lint-Staged: https://github.com/okonet/lint-staged
 - Husky: https://github.com/typicode/husky
-
-
 
 ## Visual Studio Code Extensions
 
@@ -60,8 +65,6 @@ Example with all above dependencies
 $ yarn add --dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks prettier eslint-config-prettier lint-staged husky import-sort-style-module prettier-plugin-import-sort
 ```
 
-
-
 ## Run Commands
 
 Install husky and lint-staged:
@@ -85,16 +88,11 @@ Add the follwing to `package.json`:
 
 ```json
 {
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "eslint",
-      "prettier --write"
-    ]
-  },
+	"lint-staged": {
+		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": ["eslint", "prettier --write"]
+	}
 }
 ```
-
-
 
 ## Create Files
 
@@ -109,38 +107,36 @@ Add the follwing to `package.json`:
 - .editorconfig https://editorconfig.org/
 - .husky/pre-commit
 
-**Note:** When applying rules of ESLint if there is an `.eslintrc` file and a `package.json` file with a eslintConfig object,  found in the same directory, `.eslintrc` will take priority and `package.json` file will not be used.
+**Note:** When applying rules of ESLint if there is an `.eslintrc` file and a `package.json` file with a eslintConfig object, found in the same directory, `.eslintrc` will take priority and `package.json` file will not be used.
 
 ### TSConfig (tsconfig.json)
 
 ```json
 {
-  "compilerOptions": {
-    "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "src",
-    "outDir": "./build/",
-    "sourceMap": true,
-  },
-  "include": ["src"]
+	"compilerOptions": {
+		"target": "es6",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"baseUrl": "src",
+		"outDir": "./build/",
+		"sourceMap": true
+	},
+	"include": ["src"]
 }
 ```
-
-
 
 ### PackageJSON (package.json)
 
@@ -170,47 +166,42 @@ Add the follwing to `package.json`:
   }
 ```
 
-
-
 ### Eslint (.eslintrc.js)
 
 ```javascript
 // eslint-disable-next-line no-undef
 module.exports = {
-    env: {
-      browser: true,
-      es2021: true,
-    },
-    extends: [
-      'eslint:recommended',
-      'plugin:react/recommended',
-      'plugin:@typescript-eslint/recommended',
-      'plugin:react-hooks/recommended',
-      'prettier',
-    ],
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-      ecmaFeatures: {
-        jsx: true,
-      },
-      ecmaVersion: 12,
-      sourceType: 'module',
-    },
-    plugins: ['react', '@typescript-eslint', 'react-hooks'],
-    rules: {
-      'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-      'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
-    },
-    settings: {
-      react: {
-        version: 'detect',
-      },
-    },
-  };
-  
+	env: {
+		browser: true,
+		es2021: true
+	},
+	extends: [
+		'eslint:recommended',
+		'plugin:react/recommended',
+		'plugin:@typescript-eslint/recommended',
+		'plugin:react-hooks/recommended',
+		'prettier'
+	],
+	parser: '@typescript-eslint/parser',
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true
+		},
+		ecmaVersion: 12,
+		sourceType: 'module'
+	},
+	plugins: ['react', '@typescript-eslint', 'react-hooks'],
+	rules: {
+		'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+		'react-hooks/exhaustive-deps': 'warn' // Checks effect dependencies
+	},
+	settings: {
+		react: {
+			version: 'detect'
+		}
+	}
+};
 ```
-
-
 
 ### Prettier (.prettierrc)
 
@@ -224,8 +215,6 @@ module.exports = {
     "useTabs": false
 }
 ```
-
-
 
 ### Editor Config (.editorconfig)
 
@@ -259,8 +248,6 @@ indent_size = 2
 
 ```
 
-
-
 ### Husky Precommit (.husky/pre-commit)
 
 ```sh
@@ -271,4 +258,3 @@ echo "Running Husky pre-commit hook"
 npx lint-staged
 # yarn test
 ```
-

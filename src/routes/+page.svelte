@@ -7,7 +7,7 @@
 	<meta name="description" content="A web-app all about me" />
 </svelte:head>
 
-<section class="hidden justify-center gap-x-4 bg-gray-100 py-4 xs:flex sm:hidden">
+<section class="w-screen justify-center gap-x-4 bg-gray-100 py-4 xs:flex sm:hidden">
 	<picture class="flex-none">
 		<img class="object-center" alt="profile of me" src={me} />
 	</picture>
@@ -19,7 +19,7 @@
 	</div>
 </section>
 
-<section class="hidden justify-center gap-x-8 bg-gray-100 py-4 sm:flex">
+<section class="justify-center gap-x-8 bg-gray-100 py-4 xs:hidden sm:flex">
 	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
 		Adrian Van Nierop
 	</h1>
@@ -33,8 +33,10 @@
 	</h1>
 </section>
 
-<section class="mx-4 mt-8 flex justify-center gap-x-16 xs:flex-col sm:flex-row">
-	<div class="w-[880px] flex-initial space-y-2">
+<section
+	class="mt-8 flex w-screen gap-x-16 px-16 xs:flex-col xs:justify-items-center md:flex-row md:justify-center"
+>
+	<div class="max-w-[840px] space-y-2 pb-8">
 		<h2 class="text-3xl">Experience</h2>
 
 		<div>
@@ -131,7 +133,7 @@
 		</div>
 	</div>
 
-	<div class="grow-1 w-160 shrink pb-8">
+	<div class="pb-8 xs:text-center md:max-w-[160px] md:text-left">
 		<h2 class="text-3xl">Skills</h2>
 
 		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Tech</h3>

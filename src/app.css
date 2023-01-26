@@ -25,40 +25,12 @@
 } */
 
 @layer components {
-	.main {
-		height: 100vh;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto 1fr;
-		grid-template-areas:
-			'header'
-			'main';
-	}
-
-	.main > header {
-		grid-area: header;
-		/*/*padding: 12px 12px;*/
-	}
-
-	.main > content {
-		grid-area: main;
-		overflow: auto;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr auto;
-	}
-
-	.main > content > footer {
-		grid-row-start: 2;
-		grid-row-end: 3;
-	}
-
 	.markdown-post {
-		@apply prose prose-stone mr-[240px] h-screen overflow-y-auto scroll-smooth pl-4 pt-4 pb-16;
+		@apply prose prose-stone mr-[16px] h-screen overflow-y-auto scroll-smooth pl-4 pt-4 pb-16 lg:mr-[240px];
 	}
 
 	.markdown-post > nav {
-		@apply absolute right-0 bottom-0 top-0 h-screen w-[240px] overflow-y-auto pb-16;
+		@apply scrollbar-hide absolute right-0 bottom-0 top-0 hidden h-screen w-[240px] overflow-y-auto pb-16 lg:block;
 	}
 
 	.markdown-post > nav ol {
@@ -67,5 +39,22 @@
 
 	.markdown-post > nav a {
 		@apply text-blue-500;
+	}
+
+	.markdown-post > nav ol:first-child::before {
+		@apply text-2xl content-['Content'];
+	}
+}
+
+@layer utilities {
+	/* For Webkit-based browsers (Chrome, Safari and Opera) */
+	.scrollbar-hide::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* For IE, Edge and Firefox */
+	.scrollbar-hide {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
 	}
 }

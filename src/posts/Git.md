@@ -1,17 +1,17 @@
+---
+title: 'Git Things'
+date: '2022-01-10'
+slug: 'hello git notes'
+tags: ['version control', 'git', 'github']
+---
+
 <h1>Git Things</h1>
 
-
-
 <h2>Table of Contents</h2>
-
-
-
 
 [TOC]
 
 # Branch
-
-
 
 ## List branches
 
@@ -23,15 +23,11 @@ $ git branch ( -r | -a )
 - use -r to see only remote branches
 - use -a to see all local and remote branches
 
-
-
 ## Create local branch
 
 ```bash
 $ git branch <branch>
 ```
-
-
 
 ## Rename local branch
 
@@ -40,8 +36,6 @@ $ git branch (-m | -M) [<oldbranch>] <newbranch>
 ```
 
 M is used to force rename if the new branch already exists
-
-
 
 ## Delete local branch
 
@@ -57,19 +51,13 @@ Use -D to force delete even if it has unmerged changes
 $ git push -d <remote_name> <branchname>
 ```
 
-
-
 # Checkout
-
-
 
 ## Switch to another existing local branch
 
 ```bash
 $ git checkout <existing-branch>
 ```
-
-
 
 ## Create and switch to another local branch
 
@@ -84,8 +72,6 @@ Create a new branch from a different branch or commit
 ```bash
 $ git checkout -b ＜new-branch＞ ＜existing-branch-or-commit＞
 ```
-
-
 
 ## Pull down and track remote branch
 
@@ -103,8 +89,6 @@ $ git checkout -b ＜localbranch＞ origin/＜remotebranch＞
 
 # Track
 
-
-
 ## Tell local branch to track existing remote branch
 
 Tell the branch you are on to track an existing remot branch
@@ -119,15 +103,11 @@ for example with remote `origin` and remote branch `dev`
 $ git branch -u origin/dev
 ```
 
-
-
 ## Push local branch to the remote server for the first time and track it
 
 ```bash
 $ git push -u <remote_name> <branchname>
 ```
-
-
 
 # Fetch
 
@@ -143,7 +123,6 @@ Fetch multiple branches by name. They will be saved locally and called `origin/m
 $ git fetch origin master stable oldstable
 ```
 
-
 # Merge
 
 **Merge** `origin/master` into your current branch
@@ -152,7 +131,7 @@ $ git fetch origin master stable oldstable
 $ git merge origin/master
 ```
 
- Merge multiple branches into the current branch
+Merge multiple branches into the current branch
 
 ```bash
 $ git merge origin/master hotfix-2275 hotfix-2276 hotfix-2290
@@ -160,7 +139,7 @@ $ git merge origin/master hotfix-2275 hotfix-2276 hotfix-2290
 
 - All of the branches listed are being merged into the current branch that is not listed as it is implicitly known as it is the checked out branch.
 - The branch `origin/master` is a local representation of the remote `origin` branch `master` .
-- The branches `hotfix-2275`,  `hotfix-2276` , `hotfix-2290`are all local branches. 
+- The branches `hotfix-2275`, `hotfix-2276` , `hotfix-2290`are all local branches.
 
 # Pull
 
@@ -202,8 +181,6 @@ Merge feature branch into current branch
 $ git merge <new-feature-branch>
 ```
 
-
-
 ## Three-way Merge
 
 ## Fast-forward Merge
@@ -217,7 +194,7 @@ https://devblogs.microsoft.com/devops/squash-a-whole-new-way-to-merge-pull-reque
 https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops
 
 ```
-$ git merge 
+$ git merge
 ```
 
 # Rebase
@@ -242,21 +219,13 @@ $ git rebase <base_branch>
 
 ## Squash Rebase
 
-
-
 # Checkout
 
-
-
 # Reset
-
-
 
 # Merge Strategies
 
 https://www.atlassian.com/git/tutorials/using-branches/merge-strategy
-
-
 
 # Git Setup for Multiple SSH keys
 
@@ -268,7 +237,7 @@ https://www.atlassian.com/git/tutorials/using-branches/merge-strategy
 
 **Windows:** `%userprofile%/.ssh/config`
 
-**Linux:**  `~/.ssh/config`
+**Linux:** `~/.ssh/config`
 
 ```bash
 AddKeysToAgent yes
@@ -308,4 +277,3 @@ Host bitbucket.org-personal
     remote = origin
     merge = refs/heads/master
 ```
-
