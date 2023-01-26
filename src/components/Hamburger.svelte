@@ -1,11 +1,24 @@
 <script>
 	export let open = false;
+
+	function handleClick() {
+		// alert('Click outside!');
+		console.log('handle click');
+		if (open) {
+			console.log('is open - do nothing');
+			open = false;
+		} else {
+			console.log('is closed - open');
+			open = true;
+		}
+	}
 </script>
 
+<!-- on:click={() => (open = !open)} -->
 <button
 	class="mr-4 cursor-pointer border-none text-gray-500 hover:text-gray-700 focus:outline-none"
 	class:open
-	on:click={() => (open = !open)}
+	on:click={handleClick}
 >
 	<svg width="32" height="24">
 		<line id="top" x1="0" y1="2" x2="32" y2="2" />

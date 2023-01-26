@@ -21,7 +21,7 @@
 		{#each navItems as navItem (navItem.id)}
 			<a
 				href={navItem.url}
-				class="rounded-lg px-3 py-2 font-medium text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+				class="rounded-lg px-3 py-2 text-xl font-medium text-slate-700 hover:bg-slate-100 hover:text-slate-900"
 				>{navItem.id}
 			</a>
 		{/each}
@@ -64,7 +64,7 @@
 			<slot />
 		</div>
 
-		<footer class="relative shrink-0 bg-gray-100 py-4 text-center text-black">
+		<footer class="shrink-0 bg-gray-100 py-4 text-center text-black">
 			Typescript, Tailwind and SvelteKit are Awesome 😎
 		</footer>
 	</div>
@@ -92,3 +92,8 @@
 		Typescript, Tailwind and SvelteKit are Awesome 😎
 	</footer>
 </div> -->
+<!-- <style>
+	.what {
+		flex: 0 1 100%;
+	}
+</style> -->
