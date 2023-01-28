@@ -5,12 +5,6 @@
 
 	import Sidebar from '../../components/Sidebar.svelte';
 	import Hamburger from '../../components/Hamburger.svelte';
-	import Navbar from '../../components/Navbar.svelte';
-	import Main from '../../components/Main.svelte';
-
-	import { clickOutside } from '$lib/clickOutside';
-	// import Sidebar from '$components/Sidebar.svelte';
-	// import { getFrontMatter } from '$lib/posts';
 
 	let open = false;
 </script>
@@ -21,12 +15,12 @@
 </svelte:head>
 
 {#if data.postSelected}
-	<section class="flex h-full justify-center sm:hidden">
-		<div class="absolute top-0 left-0 z-10 p-2">
-			<Hamburger bind:open />
-		</div>
+	<div class="absolute top-0 left-0 z-10 p-2 sm:hidden">
+		<Hamburger bind:open />
+	</div>
 
-		<div class="relative h-full w-[900px] flex-initial overflow-y-auto">
+	<section class="relative flex h-full justify-center overflow-y-auto">
+		<div class="sm:hidden">
 			<Sidebar bind:open>
 				<ul class="z-10 p-4">
 					{#each data.posts as post (post.filename)}
@@ -37,15 +31,9 @@
 					{/each}
 				</ul>
 			</Sidebar>
-
-			<div>
-				<slot />
-			</div>
 		</div>
-	</section>
 
-	<section class="hidden h-full justify-center sm:flex">
-		<aside class="h-full w-[240px] shrink-0 overflow-y-auto bg-gray-100 px-4">
+		<aside class="hidden h-full w-[240px] shrink-0 overflow-y-auto bg-gray-100 px-4 sm:block">
 			<h2 class="py-4 text-3xl">Posts</h2>
 			<ul>
 				{#each data.posts as post (post.filename)}
@@ -74,18 +62,3 @@
 		</ul>
 	</div>
 {/if}
-
-<!-- <Sidebar bind:open /> -->
-
-<!-- <Sidebar bind:open>
-	<ul>
-		{#each data.posts as post (post.filename)}
-			<li class="py-2">
-				<a class="font-bold" href="/blog/{post.filename}">{post.title}</a>
-				<p class="ml-2 text-gray-500">{post.date}</p>
-			</li>
-		{/each}
-	</ul>
-</Sidebar> -->
-
-<!-- <Main /> -->

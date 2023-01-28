@@ -3,14 +3,15 @@
 
 	function handleClick() {
 		// alert('Click outside!');
-		console.log('handle click');
+		console.group('handle menu close button click');
 		if (open) {
-			console.log('is open - do nothing');
+			console.log('is open - close');
 			open = false;
 		} else {
 			console.log('is closed - open');
 			open = true;
 		}
+		console.groupEnd();
 	}
 </script>
 
