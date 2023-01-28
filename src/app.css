@@ -2,36 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-	.markdown-post {
-		@apply flex h-full overflow-y-auto;
-	}
-
-	.markdown-post > main {
-		@apply prose prose-stone w-[660] flex-initial overflow-y-auto;
-	}
-
-	.markdown-post > nav {
-		@apply prose prose-stone w-[240] flex-initial overflow-y-auto;
-	}
-
-	.markdown-post ol {
-		@apply list-inside list-none;
-	}
-
-	.markdown-post a {
-		@apply text-blue-500;
-	}
-} */
-
 @layer components {
 	.markdown-post {
 		@apply prose prose-stone mr-[16px] h-screen overflow-y-auto scroll-smooth pl-4 pt-4 pb-16 lg:mr-[240px];
 	}
-
-	/* .markdown-post > nav {
-		@apply scrollbar-hide absolute right-0 bottom-0 top-0 hidden h-screen w-[240px] overflow-y-auto pb-16 lg:block;
-	} */
 
 	.markdown-post > nav {
 		@apply scrollbar-hide static right-0 bottom-0 top-0 overflow-y-auto pb-4 lg:absolute lg:h-screen lg:w-[240px] lg:pb-16;
@@ -44,10 +18,6 @@
 	.markdown-post > nav a {
 		@apply text-blue-500;
 	}
-
-	/* .markdown-post > nav ol:first-child::before {
-		@apply text-4xl font-bold content-['Table_of_Contents'] lg:text-2xl lg:content-['Content'];
-	} */
 
 	.markdown-post > nav > ol:nth-of-type(1):not(:empty)::before {
 		@apply text-4xl font-bold content-['Table_of_Contents'] lg:text-2xl lg:content-['Content'];

@@ -1,6 +1,4 @@
 <script>
-	import { clickOutside } from '$lib/clickOutside';
-
 	export let open = false;
 
 	function handleMenuClick() {
@@ -16,23 +14,9 @@
 	}
 </script>
 
-<!-- <aside
-	class="absolute top-0 bottom-0 flex w-screen flex-row overflow-y-auto "
-	class:open
-	on:click={handleMenuClick}
-	on:keyup={handleMenuClick}
->
-	<nav class="w-[240px] flex-none border-r-2 bg-gray-300 shadow-lg">
-		<slot />
-	</nav>
-
-	<div class="invisible flex-1">Filler</div>
-</aside> -->
-
 <aside
 	class="absolute top-0 bottom-0 z-10 flex w-screen flex-row overflow-y-auto"
 	class:open
-	use:clickOutside
 	on:click={handleMenuClick}
 	on:keyup={handleMenuClick}
 >

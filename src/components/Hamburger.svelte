@@ -2,7 +2,6 @@
 	export let open = false;
 
 	function handleClick() {
-		// alert('Click outside!');
 		console.group('handle menu close button click');
 		if (open) {
 			console.log('is open - close');
@@ -15,7 +14,6 @@
 	}
 </script>
 
-<!-- on:click={() => (open = !open)} -->
 <button
 	class="mr-4 cursor-pointer border-none text-gray-500 hover:text-gray-700 focus:outline-none"
 	class:open
