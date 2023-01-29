@@ -4,7 +4,7 @@
 
 @layer components {
 	.markdown-post {
-		@apply prose prose-stone mr-[16px] h-screen overflow-y-auto scroll-smooth pl-4 pt-4 pb-16 lg:mr-[240px];
+		@apply prose prose-stone mr-[16px] h-screen scroll-smooth pl-4 pt-4 pb-16 lg:mr-[240px];
 	}
 
 	.markdown-post > nav {
