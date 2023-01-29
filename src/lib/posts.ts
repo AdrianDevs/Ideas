@@ -1,6 +1,6 @@
 import matter from 'gray-matter'
 
-export async function getFrontMatter() {
+export async function getMarddownFilesMetadata() {
   const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
 
   const iterablePostFiles = Object.entries(modules)

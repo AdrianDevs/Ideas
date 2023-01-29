@@ -20,7 +20,7 @@
 	}
 
 	.markdown-post > nav > ol:nth-of-type(1):not(:empty)::before {
-		@apply text-4xl font-bold content-['Table_of_Contents'] lg:text-2xl lg:content-['Content'];
+		@apply text-3xl content-['Table_of_Contents'] lg:text-2xl lg:content-['Content'];
 	}
 }
 
