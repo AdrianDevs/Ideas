@@ -2,6 +2,8 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 import { getMarkdownPost } from '$lib/posts'
 
+const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
+
 export const load = (async ( { params }) => {
   // console.log("params.post", params.post)
   const post = await getMarkdownPost(params.post)
@@ -23,6 +25,8 @@ export const load = (async ( { params }) => {
   // console.log('title:', title)
   // console.log('date:', date)
   // console.log('content:', content)
+
+  await sleep(2000)
   
   if (post) {
     return {id:params.post, title: title, date: date, content: content};

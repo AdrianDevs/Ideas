@@ -1,6 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 
+	import { Jumper } from 'svelte-loading-spinners';
+	import { navigating } from '$app/stores';
+
 	let navItems = [
 		{ id: 'Home', url: '/' },
 		{ id: 'Blog', url: '/blog' },
@@ -26,9 +29,19 @@
 	</header>
 
 	<div class="flex flex-1 flex-col overflow-y-auto">
-		<div class="flex-1">
-			<slot />
-		</div>
+		{#if $navigating?.to?.route.id === '/blog'}
+			<div class="mt-16 flex flex-1 flex-col items-center self-center font-bold">
+				<h1 class="mb-4">Loading blog ...</h1>
+				<Jumper size="60" color="#FF3E00" unit="px" duration="1.5s" />
+			</div>
+			<!-- <div class="mt-16 flex-1 self-center">
+			<Jumper size="60" color="#FF3E00" unit="px" duration="1s" />
+		</div> -->
+		{:else}
+			<div class="flex-1">
+				<slot />
+			</div>
+		{/if}
 
 		<footer class="shrink-0 bg-gray-100 py-4 text-center text-black">
 			Typescript, Tailwind and SvelteKit are Awesome 😎
