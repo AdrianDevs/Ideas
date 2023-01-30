@@ -17,7 +17,7 @@
 		<RingLoader size="60" color="#FF3E00" unit="px" duration="1.5s" />
 	</div>
 {:else}
-	<div class="overflow-y-auto">
+	<div class="overflow-y-auto scroll-smooth">
 		<h1 class="pl-10 pt-4 text-4xl font-bold lg:hidden">{data.title}</h1>
 		<div class="markdown-post">
 			<svelte:component this={data.content} />
