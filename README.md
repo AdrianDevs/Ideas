@@ -1,26 +1,63 @@
 <h1>Ideas</h1>
 
-An Web-App that is about me, my knowledge and my dreams.
+A Web-App that is about me, my knowledge and my dreams.
+
+
 
 <h2>Tables of Contents</h2>
 
 [TOC]
 
-# Technical
+# Website Content
 
-## Requirements
+- Overview of myself and what I like to do
+- A typescript blog of things I have learned
+- Links to my other sites
+
+
+
+# Technical Features
+
+- Svelte
+- SvelteKit
+- Styling with Tailwind
+- Linting with ESLint
+- Git Hooks and Husky
+- Unit tests with Vitest
+- E2E test with Playwright
+- Markdown blog with mdsvex
+
+
+
+# Requirements
 
 - Mac OS 13.1 or later
-- Git installed
-- NPM installed
+- Git
+- VSCode
+- Node v20.3.1 or later
+- NPM 9.6.7 or later
 
-## Download
+
+
+# Setup
+
+Download project
 
 ```sh
 git clone https://github.com/AdrianDevs/ideas.git
 ```
 
-## Run Locally
+Install packages
+
+```sh
+$ npm install
+```
+
+
+
+# Run Locally
+
+**Running locally**
 
 ```sh
 cd about-me
@@ -30,12 +67,11 @@ npm run dev
 npm run dev -- --open
 ```
 
-### Change Port
+**Change Port**
 
 Edit *package.json* in your project root and change `"dev": "svelte-kit dev"` to `"dev": "svelte-kit dev --port XXXX"` replacing XXXX with the port you want to use.
 
-
-## Build for Production
+**Build for Production**
 
 ```sh
 npm run build
@@ -45,75 +81,66 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-## Deploying
 
-### Vercel
 
-#### Deploy to UAT
+# Deploying
+
+Deploy the project to Vercel
+
+**Deploy to UAT**
+
+```sh
+vercel 
+```
+
+**Deploy to PROD**
 
 ```sh
 vercel --prod
 ```
 
-#### Deploy to PROD
+
+
+# Update Dependencies
+
+Audit packages for vulnerabilities and follow steps
 
 ```sh
-vercel
+$ npm audit
+```
+
+Check if packages are outdated
+
+```sh
+$ npm outdated
+```
+
+Use [npm-check-updates](https://www.npmjs.org/package/npm-check-updates). npm-check-updates upgrades your package.json dependencies to the **latest** versions, ignoring specified versions.
+
+```sh
+$ npm install -g npm-check-updates
+$ ncu
+```
+
+Upgrade a project's package file:
+
+```sh
+$ ncu -u
+$ npm install 
+```
+
+Check global packages:
+
+```sh
+$ ncu -g
 ```
 
 
 
-## Update Web App
-
-### Update NPM Packages
-
-### Update Svelte
-
-### Update SevelteKit
-
-## Features
-
-- Svelte
-- SvelteKit
-- Tailwind
-- Authentication
-- ESLint and GitHooks
-- Testing
-- Markdown blog with mdsvex and grey-matter
-
-# Links
+# Useful Links
 
 - [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 - [SevelteKit Docs](https://kit.svelte.dev/docs/introduction)
 - Svelt Discor - https://discord.com/invite/svelte
 - SveltKit Discord
 
-# Content
-
-## About Me
-
-* About this web-app
-* CV Style Page
-* CV Download
-* Blog / Learnings page
-* Links to other sites and apps
-* Tech I want
-* Travel
-
-## Blog
-
-Markdown blog using MDsveX
-
-# Links
-
-## Agile Roadmap & Estimating
-
-## Markdown Editor
-
-## GitFlow Interaction
-
-## Minesweeper
-
-## Tic Tac Toe`
-
-## Tetris

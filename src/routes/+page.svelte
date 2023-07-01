@@ -40,14 +40,14 @@
 		<h2 class="text-3xl">Experience</h2>
 
 		<div>
-			<h3 class="mt-4 mb-2 text-2xl text-blue-700">Lead Product Engineer | Colenso BBDO</h3>
+			<h3 class="mb-2 mt-4 text-2xl text-blue-700">Lead Product Engineer | Colenso BBDO</h3>
 			<h5 class="mb-2 text-lg text-gray-500">2021 - Present</h5>
 			<p>
 				I lead a team as a Product Owner, and a Tech Lead for the MyHooman Digital Solution for
 				Pedigree and Mars. I am working with a talented group to create a highly-functional,
 				cross-discipline solution team by championing trust through transparency and openness.
 			</p>
-			<h4 class="mt-4 mb-2 text-xl">Achievements I am most proud of in my role:</h4>
+			<h4 class="mb-2 mt-4 text-xl">Achievements I am most proud of in my role:</h4>
 			<ul class="list-inside list-disc space-y-1 text-gray-700">
 				<li>Solution Architecture and data flow modelling</li>
 				<li>Creation of roadmaps by sizing and solution features</li>
@@ -69,14 +69,14 @@
 		</div>
 
 		<div>
-			<h3 class="mt-4 mb-2 text-2xl text-blue-700">Digital Experience Analyst | ASB</h3>
+			<h3 class="mb-2 mt-4 text-2xl text-blue-700">Digital Experience Analyst | ASB</h3>
 			<h5 class="mb-2text-lg text-gray-500">2020 - 2021</h5>
 			<p>
 				I’ve worked on allowing customers to personalise their online banking experience. I’ve
 				delivered business-critical products where downtime and errors were not an option. In this
 				role, I’ve learned how large enterprise companies run and what makes them tick.
 			</p>
-			<h4 class="mt-4 mb-2 text-xl">My day-to-day tasks in this role included:</h4>
+			<h4 class="mb-2 mt-4 text-xl">My day-to-day tasks in this role included:</h4>
 			<ul class="list-inside list-disc space-y-1 text-gray-700">
 				<li>Business requirements discovery</li>
 				<li>Prioritising a product backlog of features</li>
@@ -90,13 +90,13 @@
 		</div>
 
 		<div>
-			<h3 class="mt-4 mb-2 text-2xl text-blue-700">Senior Product Owner and Team Lead | Rush</h3>
+			<h3 class="mb-2 mt-4 text-2xl text-blue-700">Senior Product Owner and Team Lead | Rush</h3>
 			<h5 class="mb-2text-lg text-gray-500">2017 - 2020</h5>
 			<p>
 				I’ve worked with multidisciplinary teams on some of Z-Energy’s (NZ’s largest fuel company)
 				most innovative products – Sharetank and Pay-by-Plate.
 			</p>
-			<h4 class="mt-4 mb-2 text-xl">My achievements and tasks from this role include:</h4>
+			<h4 class="mb-2 mt-4 text-xl">My achievements and tasks from this role include:</h4>
 			<ul class="list-inside list-disc space-y-1 text-gray-700">
 				<li>Delivered a multi-million dollar product with zero overtime</li>
 				<li>Solution and sized feature requests</li>
@@ -113,14 +113,14 @@
 		</div>
 
 		<div>
-			<h3 class="mt-4 mb-2 text-2xl text-blue-700">Software Engineer to Team Lead | Rush</h3>
+			<h3 class="mb-2 mt-4 text-2xl text-blue-700">Software Engineer to Team Lead | Rush</h3>
 			<h5 class="mb-2text-lg text-gray-500">2012 - 2017</h5>
 			<p>
 				I’ve progressed from a Junior Mobile Developer to a Team Lead. I went through the company's
 				start-up phase, where I was responsible for scoping, developing and delivering work,
 				teaching me the importance of strong product ownership.
 			</p>
-			<h4 class="mt-4 mb-2 text-xl">My achievements and tasks from this role include:</h4>
+			<h4 class="mb-2 mt-4 text-xl">My achievements and tasks from this role include:</h4>
 			<ul class="list-inside list-disc space-y-1 text-gray-700">
 				<li>Worked with Google to build a digital swear jar</li>
 				<li>Worked with Google to build a mobility assistance app</li>
@@ -136,7 +136,7 @@
 	<div class="pb-8 xs:text-center md:max-w-[160px] md:text-left">
 		<h2 class="text-3xl">Skills</h2>
 
-		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Tech</h3>
+		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Tech</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
 			<li>Solution Architecture</li>
 			<li>AWS and Azure hosting</li>
@@ -150,7 +150,7 @@
 			<li>Android & iOS</li>
 		</ul>
 
-		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Product</h3>
+		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Product</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
 			<li>Vision and goal setting</li>
 			<li>Feature scoping</li>
@@ -164,21 +164,21 @@
 			<li>Stakeholder management</li>
 		</ul>
 
-		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Delivery</h3>
+		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Delivery</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
 			<li>Behaviour-driven development</li>
 			<li>Branching, Testing, and Delivery Strategies</li>
 			<li>CI/CD</li>
 		</ul>
 
-		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Analytics</h3>
+		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Analytics</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
 			<li>Google Analytics</li>
 			<li>Google Tag Manager</li>
 			<li>Firebase Analytics</li>
 		</ul>
 
-		<h3 class="mt-4 mb-2 text-2xl text-blue-700">Tools</h3>
+		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Tools</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
 			<li>Jira</li>
 			<li>Miro</li>
@@ -186,7 +186,7 @@
 			<li>Lucidchart</li>
 		</ul>
 
-		<h2 class="mt-4 mb-2 text-3xl">Hobbies</h2>
+		<h2 class="mb-2 mt-4 text-3xl">Hobbies</h2>
 		<p>
 			I enjoy swimming at new beaches and mountain biking when the weather is good. When it is
 			gloomy outside, I read historical & science fiction and catch up on tech and product blogs. I
@@ -194,7 +194,7 @@
 			spaceships in my head.
 		</p>
 
-		<h2 class="mt-4 mb-2 text-3xl">References</h2>
+		<h2 class="mb-2 mt-4 text-3xl">References</h2>
 		<p>Available upon request</p>
 	</div>
 </section>

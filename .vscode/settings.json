@@ -1,7 +1,17 @@
 {
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
 	"editor.tabSize": 2,
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "svelte.plugin.svelte.format.config.singleQuote": false,
+  "javascript.preferences.quoteStyle": "auto",
+  "typescript.preferences.quoteStyle": "auto",
+  "yaml.format.singleQuote": false,
+  "docker.languageserver.diagnostics.instructionJSONInSingleQuotes": "warning",
+  "html.completion.attributeDefaultValue": "doublequotes"
 	// "search.exclude": {
 	// 	"package-lock.json": true
 	// },
