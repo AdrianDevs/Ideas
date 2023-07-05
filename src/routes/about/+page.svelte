@@ -12,9 +12,9 @@
 <div class="flex justify-center">
 	<div class="max-w-6xl p-4">
 		<h1 class="text-4xl">About</h1>
-		<hr class="mb-8 mt-4 h-px border-0 bg-blue-200 dark:bg-gray-700" />
+		<hr class="my-4 h-px border-0 bg-blue-200 dark:bg-gray-700" />
 
-		<div class="flex justify-center gap-8 xs:flex-col sm:flex-row">
+		<div class="flex justify-center gap-16 p-4 xs:flex-col sm:flex-row">
 			<section class="relative w-[240px] shrink-0 self-center">
 				<picture class="flex-none">
 					<img class="h-64 w-64 rounded-full object-fill" alt="profile of me" src={me} />
