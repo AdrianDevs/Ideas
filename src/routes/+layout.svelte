@@ -7,12 +7,7 @@
 	let navItems = [
 		{ id: 'Home', url: '/' },
 		{ id: 'Blog', url: '/blog' },
-		// { id: 'Tech', url: '/tech' },
-		// { id: 'Quotes', url: '/quotes' },
-		// { id: 'Travel', url: '/travel' },
-		// { id: 'Learn', url: '/learn' },
 		{ id: 'About', url: '/about' }
-		// { id: 'Links', url: '/links' }
 	];
 </script>
 
