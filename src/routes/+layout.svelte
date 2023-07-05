@@ -11,8 +11,8 @@
 		// { id: 'Quotes', url: '/quotes' },
 		// { id: 'Travel', url: '/travel' },
 		// { id: 'Learn', url: '/learn' },
-		// { id: 'About', url: '/about' },
-		{ id: 'Links', url: '/links' }
+		{ id: 'About', url: '/about' }
+		// { id: 'Links', url: '/links' }
 	];
 </script>
 

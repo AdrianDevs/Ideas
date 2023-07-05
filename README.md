@@ -11,7 +11,7 @@ A Web-App that is about me, my knowledge and my dreams.
 # Website Content
 
 - Overview of myself and what I like to do
-- A typescript blog of things I have learned
+- A blog of things I have learned. Blog content is uploaded during deployment from Markdown files converted to HTML.
 - Links to my other sites
 
 
@@ -141,6 +141,6 @@ $ ncu -g
 
 - [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 - [SevelteKit Docs](https://kit.svelte.dev/docs/introduction)
-- Svelt Discor - https://discord.com/invite/svelte
+- Svelt Discord - https://discord.com/invite/svelte
 - SveltKit Discord
 

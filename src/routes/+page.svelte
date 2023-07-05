@@ -29,7 +29,7 @@
 	</picture>
 
 	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
-		Software Engineer
+		Engineering Products
 	</h1>
 </section>
 
