@@ -1,5 +1,5 @@
 <script>
-	import me from '$lib/images/happiness-squared.png';
+	import me from '$lib/images/happiness-squared.webp';
 	import GitHub from 'virtual:icons/mdi/github';
 	import LinkedIn from 'virtual:icons/mdi/linkedin';
 </script>

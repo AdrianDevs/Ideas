@@ -50,7 +50,7 @@
 		<Jellyfish size="60" color="#FF3E00" unit="px" duration="1.5s" />
 	</div>
 {:else if data.postSelected}
-	<div class="absolute top-0 left-0 z-10 p-2 sm:hidden">
+	<div class="absolute left-0 top-0 z-10 p-2 sm:hidden">
 		<Hamburger bind:open />
 	</div>
 
@@ -90,7 +90,8 @@
 	</section>
 {:else}
 	<div class="flex flex-col items-center text-center">
-		<h2 class="py-4 text-3xl">Posts</h2>
+		<!-- <h2 class="py-4 text-3xl">Posts</h2> -->
+		<h1 class="text-4xl">Posts</h1>
 		<ul>
 			{#each data.posts as post (post.filename)}
 				<li class="py-2">
