@@ -2,13 +2,13 @@ import { error } from '@sveltejs/kit';
 import type { LayoutServerLoad } from './$types';
 import { getMarddownFilesMetadata } from '$lib/posts';
 
-const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
+// const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
 export const load = (async (param) => {
   // const mdPostsMetaData = await getMarkdownPostsMetadata();
-  console.log("PARAM:", param.url.pathname)
+  // console.log("PARAM:", param.url.pathname)
   const postSelected = param.url.pathname !== '/blog' ? true : false;
-  console.log("Is post selected: ", postSelected)
+  // console.log("Is post selected: ", postSelected)
 
   const frontMatter = await getMarddownFilesMetadata()
   // console.log("frontMatter:", frontMatter)

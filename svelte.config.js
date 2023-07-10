@@ -8,30 +8,31 @@ import toc from '@jsdevtools/rehype-toc';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.md'],
+	// extensions: ['.svelte', '.md'],
 
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: [
 		vitePreprocess(),
-		mdsvex({
-			extensions: ['.md'],
-			rehypePlugins: [
-				rehypeSlug,
-				rehypeAutolinkHeadings,
-				toc
-				// [wrap, { wrapper: 'main.markdown-body' }],
-				// [
-				// 	toc,
-				// 	{
-				// 		position: 'afterend',
-				// 		cssClasses: {
-				// 			toc: 'markdown-toc'
-				// 		}
-				// 	}
-				// ]
-			]
-		})
+		mdsvex()
+		// mdsvex({
+		// 	extensions: ['.md'],
+		// 	rehypePlugins: [
+		// rehypeSlug,
+		// rehypeAutolinkHeadings,
+		// toc
+		// [wrap, { wrapper: 'main.markdown-body' }],
+		// [
+		// 	toc,
+		// 	{
+		// 		position: 'afterend',
+		// 		cssClasses: {
+		// 			toc: 'markdown-toc'
+		// 		}
+		// 	}
+		// ]
+		// 	]
+		// })
 	],
 
 	kit: {

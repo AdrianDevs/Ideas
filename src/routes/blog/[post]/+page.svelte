@@ -4,6 +4,13 @@
 
 	import { navigating } from '$app/stores';
 	import { RingLoader } from 'svelte-loading-spinners';
+
+	// import { svelte as svelte } from 'svelte/compiler';
+
+	// if (data.prepocessedPost?.code) {
+	// 	const compiled = svelte.compile(data.prepocessedPost.code);
+	// 	console.log('Post compiled:', compiled);
+	// }
 </script>
 
 <svelte:head>
@@ -18,9 +25,10 @@
 	</div>
 {:else}
 	<div class="overflow-y-auto scroll-smooth">
-		<h1 class="pl-10 pt-4 text-4xl font-bold lg:hidden">{data.title}</h1>
+		<!-- <h1>Place holder for post</h1> -->
+		<!-- <h1 class="pl-10 pt-4 text-4xl font-bold lg:hidden">{data.title}</h1> -->
 		<div class="markdown-post">
-			<svelte:component this={data.content} />
+			<!-- <svelte:component this={data.content} /> -->
 		</div>
 	</div>
 {/if}

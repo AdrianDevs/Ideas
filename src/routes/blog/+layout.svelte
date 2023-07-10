@@ -11,32 +11,23 @@
 
 	let open = false;
 
-	import {
-		afterNavigate,
-		beforeNavigate,
-		disableScrollHandling,
-		goto,
-		invalidate,
-		invalidateAll,
-		preloadCode,
-		preloadData
-	} from '$app/navigation';
+	// import { afterNavigate, beforeNavigate } from '$app/navigation';
 
-	beforeNavigate((navigation) => {
-		console.group('Navigation started');
-		console.log('to:', navigation.to);
-		if (navigation.to?.route.id == '/blog') {
-			console.log('navigating to blog');
-		}
-		if (navigation.to?.route.id == '/blog/[post]') {
-			console.log('navigating to blog post');
-		}
-		console.groupEnd();
-	});
+	// beforeNavigate((navigation) => {
+	// 	console.group('Navigation started');
+	// 	console.log('to:', navigation.to);
+	// 	if (navigation.to?.route.id == '/blog') {
+	// 		console.log('navigating to blog');
+	// 	}
+	// 	if (navigation.to?.route.id == '/blog/[post]') {
+	// 		console.log('navigating to blog post');
+	// 	}
+	// 	console.groupEnd();
+	// });
 
-	afterNavigate(() => {
-		console.log('Navigation ended');
-	});
+	// afterNavigate(() => {
+	// 	console.log('Navigation ended');
+	// });
 </script>
 
 <svelte:head>
