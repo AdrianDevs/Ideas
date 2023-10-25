@@ -91,8 +91,12 @@
 {:else}
 	<div class="flex flex-col items-center text-center">
 		<!-- <h2 class="py-4 text-3xl">Posts</h2> -->
-		<h1 class="text-4xl">Posts</h1>
-		<ul>
+		<h1 class="pt-8 text-4xl">Posts</h1>
+		<h4 class="pl-4 pr-4 pt-4 text-lg">
+			A work progess. I will use this area to upload markdown files and have them appear as
+			navigateable web pages.
+		</h4>
+		<ul class="pt-8">
 			{#each data.posts as post (post.filename)}
 				<li class="py-2">
 					<a class="font-bold" href="/blog/{post.filename}">{post.title}</a>
