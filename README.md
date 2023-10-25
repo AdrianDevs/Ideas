@@ -90,13 +90,13 @@ Deploy the project to Vercel
 **Deploy to UAT**
 
 ```sh
-vercel 
+$ vercel 
 ```
 
 **Deploy to PROD**
 
 ```sh
-vercel --prod
+$ vercel --prod
 ```
 
 

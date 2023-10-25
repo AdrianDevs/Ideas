@@ -20,9 +20,9 @@
 	</picture>
 
 	<div class="flex-initial self-center">
-		<h1 class="text-center text-xl font-bold text-black">Adrian Van Nierop</h1>
+		<h1 class="text-start text-xl font-bold text-black">Adrian Van Nierop</h1>
 
-		<h1 class="text-center text-xl font-bold text-black">Software Engineer</h1>
+		<h1 class="text-start text-xl font-bold text-black">Engineering Products</h1>
 	</div>
 </section>
 
@@ -41,7 +41,7 @@
 </section>
 
 <section
-	class="mt-8 flex w-screen gap-x-16 px-16 pb-8 xs:flex-col xs:justify-items-center md:flex-row md:justify-center"
+	class="mt-8 flex w-screen gap-x-16 pb-8 xs:flex-col xs:justify-items-center xs:px-4 md:flex-row md:justify-center md:px-16"
 >
 	<div class="max-w-[840px] space-y-2 pb-8">
 		<h2 class="text-3xl">Hello!</h2>
