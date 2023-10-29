@@ -59,9 +59,9 @@
 		<Accordion>
 			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
-					<div class="mt-8 flex flex-row items-end justify-between">
-						<h3 class="text-2xl text-blue-700">Software Product Engineer</h3>
-						<h5 class="text-lg text-gray-500">Aug 2023 - Present</h5>
+					<div class="mt-8 flex flex-row items-baseline justify-between">
+						<h3 class=" text-2xl text-blue-700">Software Product Engineer</h3>
+						<h5 class="pl-8 text-gray-500 md:text-lg">Aug 2023 - Present</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">Frankie - Software to maintain properties at scale</h5>
 					<!-- <p class="text-gray-700">
@@ -89,9 +89,9 @@
 
 			<AccordionItem open>
 				<div slot="header" class="w-full pr-8">
-					<div class="mt-8 flex flex-row items-end justify-between">
+					<div class="mt-8 flex flex-row items-baseline justify-between">
 						<h3 class="text-2xl text-blue-700">Lead Product Engineer</h3>
-						<h5 class="text-lg text-gray-500">Feb 2021 - Jun 2023</h5>
+						<h5 class="pl-8 text-gray-500 md:text-lg">Feb 2021 - Jun 2023</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">Colenso BBDO - Innovation and Creative Company</h5>
 					<p class="text-gray-700">
@@ -336,9 +336,9 @@
 
 			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
-					<div class="mt-8 flex flex-row items-end justify-between">
+					<div class="mt-8 flex flex-row items-baseline justify-between">
 						<h3 class="text-2xl text-blue-700">Product Owner</h3>
-						<h5 class="text-lg text-gray-500">Jul 2020 - Feb 2021</h5>
+						<h5 class="pl-8 text-gray-500 md:text-lg">Jul 2020 - Feb 2021</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">ASB - Banking</h5>
 
@@ -389,9 +389,9 @@
 
 			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
-					<div class="mt-8 flex flex-row items-end justify-between">
+					<div class="mt-8 flex flex-row items-baseline justify-between">
 						<h3 class="text-2xl text-blue-700">Senior Product Owner and Team Lead</h3>
-						<h5 class="text-lg text-gray-500">Nov 2017 - Jul 2020</h5>
+						<h5 class="pl-8 text-gray-500 md:text-lg">Nov 2017 - Jul 2020</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">Rush - Product Development Consultancy</h5>
 
@@ -458,9 +458,9 @@
 
 			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
-					<div class="mt-8 flex flex-row items-end justify-between">
+					<div class="mt-8 flex flex-row items-baseline justify-between">
 						<h3 class="text-2xl text-blue-700">Software Engineer to Tech Lead</h3>
-						<h5 class="text-lg text-gray-500">Dec 2011 - Nov 2017</h5>
+						<h5 class="pl-8 text-gray-500 md:text-lg">Dec 2011 - Nov 2017</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">Rush - Product Development Consultancy</h5>
 
