@@ -45,7 +45,7 @@
 				</p>
 				<p class="pb-4">
 					He has worked across many platforms, including web, mobile, AR, and frameworks such as
-					ASP.NET, Express, GoLang, Svelte, React, Next.js, iOS, Android and Unity.
+					Django, Express, GoLang, Svelte, React, Next.js, iOS, Android and Unity.
 				</p>
 				<p>
 					He is passionate about where Engineering, Design and Business meet on the web, especially

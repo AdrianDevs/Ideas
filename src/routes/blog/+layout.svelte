@@ -1,5 +1,4 @@
 <script lang="ts">
-	import postcss from 'postcss';
 	import type { LayoutData } from './$types';
 	export let data: LayoutData;
 
@@ -11,16 +10,7 @@
 
 	let open = false;
 
-	import {
-		afterNavigate,
-		beforeNavigate,
-		disableScrollHandling,
-		goto,
-		invalidate,
-		invalidateAll,
-		preloadCode,
-		preloadData
-	} from '$app/navigation';
+	import { afterNavigate, beforeNavigate } from '$app/navigation';
 
 	beforeNavigate((navigation) => {
 		console.group('Navigation started');
