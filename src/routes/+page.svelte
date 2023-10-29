@@ -551,6 +551,8 @@
 
 		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Engineering Management</h3>
 		<ul class="list-inside list-none space-y-1 text-gray-700">
+			<li>Team health monitoring</li>
+			<li>Blameless postmortems and Git reviews</li>
 			<li>Team forecasting</li>
 			<li>Leadership and mentoring</li>
 			<li>Delivery Roadmapping</li>
@@ -571,8 +573,9 @@
 			<li>Swagger</li>
 			<li>Rest and GraphQL</li>
 			<li>ReactJS / NextJS</li>
+			<li>Javascipt, Typescript, NodeJS</li>
+			<li>Python, Django Rest Framework</li>
 			<li>GoLang</li>
-			<li>Typescript, NodeJS</li>
 			<li>Android & iOS</li>
 		</ul>
 
