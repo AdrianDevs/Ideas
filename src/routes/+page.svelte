@@ -20,32 +20,35 @@
 	</picture>
 
 	<div class="flex-initial self-center">
-		<h1 class="text-start text-xl font-bold text-black">Adrian Van Nierop</h1>
+		<h1 class="text-start text-2xl text-black">Adrian Van Nierop</h1>
 
-		<h1 class="text-start text-xl font-bold text-black">Engineering Products</h1>
+		<h1 class="text-start text-2xl text-black">Engineering Products</h1>
 	</div>
 </section>
 
 <section class="justify-center gap-x-8 bg-gray-100 py-4 xs:hidden sm:flex">
-	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
-		Adrian Van Nierop
-	</h1>
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">Adrian Van Nierop</h1>
 
 	<picture class="flex-none">
 		<img class="object-center" alt="profile of me" src={me} />
 	</picture>
 
-	<h1 class="w-320 flex-initial self-center text-center text-xl font-bold text-black">
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">
 		Engineering Products
 	</h1>
 </section>
 
+<div class="flex content-center justify-center xs:mx-4 md:mx-16">
+	<div class="w-full max-w-[1144px] pt-8">
+		<h1 class="text-4xl">Hello!</h1>
+		<hr class="mt-4 h-px border-0 bg-blue-200 dark:bg-gray-700" />
+	</div>
+</div>
+
 <section
-	class="mt-8 flex w-screen gap-x-16 pb-8 xs:flex-col xs:justify-items-center xs:px-4 md:flex-row md:justify-center md:px-16"
+	class="mt-4 flex w-screen gap-x-16 pb-8 xs:flex-col xs:justify-items-center xs:px-4 md:flex-row md:justify-center md:px-16"
 >
 	<div class="max-w-[840px] space-y-2 pb-8">
-		<h2 class="text-3xl">Hello!</h2>
-
 		<p class="pt-4">
 			I am an impact-driven product and engineering leader with a passion for software development
 			that has significant experience in strategic planning, product development and team

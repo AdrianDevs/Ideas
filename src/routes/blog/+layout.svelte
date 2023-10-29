@@ -89,13 +89,24 @@
 		</div>
 	</section>
 {:else}
+	<div class="flex justify-center xs:mx-4 md:mx-16">
+		<div class="w-full max-w-[1144px] py-4">
+			<h1 class="text-4xl">Posts</h1>
+			<hr class="my-4 h-px border-0 bg-blue-200 dark:bg-gray-700" />
+			<h4 class="pt-4 text-center text-lg">
+				A work in progess. I will use this area to upload markdown files and have them appear as
+				navigateable web pages.
+			</h4>
+		</div>
+	</div>
+
 	<div class="flex flex-col items-center text-center">
 		<!-- <h2 class="py-4 text-3xl">Posts</h2> -->
-		<h1 class="pt-8 text-4xl">Posts</h1>
-		<h4 class="pl-4 pr-4 pt-4 text-lg">
+		<!-- <h1 class="pt-8 text-4xl">Posts</h1> -->
+		<!-- <h4 class="pl-4 pr-4 pt-4 text-lg">
 			A work in progess. I will use this area to upload markdown files and have them appear as
 			navigateable web pages.
-		</h4>
+		</h4> -->
 		<ul class="pt-8">
 			{#each data.posts as post (post.filename)}
 				<li class="py-2">

@@ -9,8 +9,8 @@
 	<meta name="description" content="About this site" />
 </svelte:head>
 
-<div class="flex justify-center">
-	<div class="max-w-6xl p-4">
+<div class="flex justify-center xs:mx-4 md:mx-16">
+	<div class="w-full max-w-[1144px] py-4">
 		<h1 class="text-4xl">About</h1>
 		<hr class="my-4 h-px border-0 bg-blue-200 dark:bg-gray-700" />
 
