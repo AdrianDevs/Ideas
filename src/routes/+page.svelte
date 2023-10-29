@@ -63,11 +63,9 @@
 						<h3 class=" text-2xl text-blue-700">Software Product Engineer</h3>
 						<h5 class="pl-8 text-gray-500 md:text-lg">Aug 2023 - Present</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500">Frankie - Software to maintain properties at scale</h5>
-					<!-- <p class="text-gray-700">
-						Working as a Senior Software Engineer at Frankie a startup that helps automate and bring
-						transparency to property maintenance at scale.
-					</p> -->
+					<h5 class="mb-2 text-gray-500">
+						Frankie - An early stage startup making software to maintain properties at scale
+					</h5>
 				</div>
 
 				<div slot="arrowup">
@@ -81,8 +79,8 @@
 				<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
 					<li>Increased website load speed through database query optimizations.</li>
 					<li>
-						Allowed facilities to compare maintenance costs, with partner properties, giving
-						facilities managers competitive spending insights.
+						Allowed facilities to compare maintenance costs, with partner properties, giving them
+						competitive spending insights.
 					</li>
 				</ul>
 			</AccordionItem>
