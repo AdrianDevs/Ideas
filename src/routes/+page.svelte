@@ -2,11 +2,16 @@
 	// import me from '$lib/images/me.png';
 	import me2 from '$lib/images/me2.png';
 	import frankie_logo from '$lib/images/Frankie_logo.svg';
+	import colensobbdo_logo from '$lib/images/ColensoBBDO_logo.png';
 	import mars_logo from '$lib/images/Mars_logo.svg';
 	import pedigree_logo from '$lib/images/Pedigree_logo.png';
 	import asb_logo from '$lib/images/ASB_logo.png';
+	import rush_logo from '$lib/images/Rush_logo.svg';
 	import z_logo from '$lib/images/Z_logo.svg';
+	import spark_logo from '$lib/images/Spark_logo.svg';
 	import google_logo from '$lib/images/Google_logo.png';
+	import samsung_logo from '$lib/images/Samsung_logo.png';
+	import national_geographic_logo from '$lib/images/NationalGeographic_logo.avif';
 	import { AccordionItem, Accordion } from 'flowbite-svelte';
 	import {
 		ChevronDoubleUpOutline,
@@ -78,13 +83,13 @@
 							Aug 2023 - Present
 						</h5>
 					</div>
-					<h5 class="mb-4 text-gray-500 xs:text-sm sm:text-base md:text-base">
+					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
 						Frankie - An early stage startup that helps automate and bring transparency to property
 						maintenance at scale.
 					</h5>
-					<div class="w-fit bg-[#004181] p-2">
+					<div class="mt-4 w-fit bg-[#004181] py-2">
 						<picture class="flex-fill">
-							<img class="h-8 object-center" alt="Frakie's logo" src={frankie_logo} />
+							<img class="h-10 object-scale-down" alt="Frakie's logo" src={frankie_logo} />
 						</picture>
 					</div>
 				</div>
@@ -152,22 +157,34 @@
 							Feb 2021 - Jun 2023
 						</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500 xs:text-sm sm:text-base md:text-base">
+					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
 						Colenso BBDO - Innovation and Creative Company
 					</h5>
-					<p class="mb-4 text-gray-700 xs:text-sm sm:text-base md:text-base">
+					<p class="mt-2 text-gray-700 xs:text-sm sm:text-base md:text-base">
 						Working as a Technical Product Manager at Colenso BBDO on the Mars Product Porfolio.
 					</p>
-					<div class="flex flex-row gap-8">
-						<div class="w-fit self-center p-2">
-							<picture class="flex-fill">
-								<img class="h-8 object-center" alt="Mars's logo" src={mars_logo} />
+
+					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+						<div class="w-fit">
+							<picture class="flex-none">
+								<img class="h-14 object-scale-down" alt="Colenso's logo" src={colensobbdo_logo} />
 							</picture>
 						</div>
-						<div class="w-fit bg-[#FCC216]">
-							<picture class="flex-fill">
-								<img class="h-12 object-center" alt="Pedigree's logo" src={pedigree_logo} />
-							</picture>
+
+						<div>
+							<h4 class="self-center pt-2 text-black xs:text-sm sm:text-base">Notable Clients</h4>
+							<div class="flex flex-row justify-center gap-4 pt-2">
+								<div class="w-fit self-center">
+									<picture class="flex-fill">
+										<img class="h-8 object-scale-down" alt="Mars's logo" src={mars_logo} />
+									</picture>
+								</div>
+								<div class="w-fit bg-[#FCC216]">
+									<picture class="flex-fill">
+										<img class="h-10 object-scale-down" alt="Pedigree's logo" src={pedigree_logo} />
+									</picture>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -448,14 +465,14 @@
 							Jul 2020 - Feb 2021
 						</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500 xs:text-sm sm:text-base md:text-base">ASB - Banking</h5>
+					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">ASB - Banking</h5>
 
-					<p class="mb-4 text-gray-700 xs:text-sm sm:text-base md:text-base">
+					<p class="mt-2 text-gray-700 xs:text-sm sm:text-base md:text-base">
 						Working at New Zealand's largest bank as a Product Owner, I created and delivered
 						features to customers' online banking.
 					</p>
 
-					<div class="w-fit p-2">
+					<div class="mt-4 w-fit">
 						<picture class="flex-fill">
 							<img class="h-8 object-center" alt="ASB's logo" src={asb_logo} />
 						</picture>
@@ -525,10 +542,28 @@
 						revenue, giving us a weighty responsibility.
 					</p>
 
-					<div class="w-fit bg-[#004181] p-2">
-						<picture class="flex-fill">
-							<img class="h-8 object-center" alt="Z Energy's logo" src={z_logo} />
-						</picture>
+					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+						<div class="w-fit bg-black pb-2 pl-2 pr-2">
+							<picture class="flex-none">
+								<img class="h-10 object-scale-down" alt="Rush's logo" src={rush_logo} />
+							</picture>
+						</div>
+
+						<div>
+							<h4 class="self-center pt-2 text-black xs:text-sm sm:text-base">Notable Clients</h4>
+							<div class="flex flex-row items-center justify-center gap-4 pt-2">
+								<div class="w-fit bg-[#004181] p-2">
+									<picture class="flex-fill">
+										<img class="h-8 object-scale-down" alt="Z Energy's logo" src={z_logo} />
+									</picture>
+								</div>
+								<div class="w-fit p-2">
+									<picture class="flex-fill">
+										<img class="h-10 object-scale-down" alt="Sparks's logo" src={spark_logo} />
+									</picture>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -607,10 +642,37 @@
 						Product Consultancy), resulting in a highly focused and successful company.
 					</p>
 
-					<div class="w-fit p-2">
-						<picture class="flex-fill">
-							<img class="h-8 object-center" alt="Google's logo" src={google_logo} />
-						</picture>
+					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+						<div class="w-fit bg-black pb-2 pl-2 pr-2">
+							<picture class="flex-none">
+								<img class="h-10 object-scale-down" alt="Rush's logo" src={rush_logo} />
+							</picture>
+						</div>
+
+						<div>
+							<h4 class="self-center pt-2 text-black xs:text-sm sm:text-base">Notable Clients</h4>
+							<div class="flex flex-row items-center justify-center gap-4 pt-2">
+								<div class="w-fit">
+									<picture class="flex-fill">
+										<img class="h-8 object-scale-down" alt="Google's logo" src={google_logo} />
+									</picture>
+								</div>
+								<div class="w-fit">
+									<picture class="flex-fill">
+										<img class="h-8 object-scale-down" alt="Samung's logo" src={samsung_logo} />
+									</picture>
+								</div>
+								<div class="w-fit">
+									<picture class="flex-fill">
+										<img
+											class="h-8 object-scale-down"
+											alt="National Geographics's logo"
+											src={national_geographic_logo}
+										/>
+									</picture>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
