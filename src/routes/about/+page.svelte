@@ -18,7 +18,7 @@
 		<div class="flex justify-center gap-16 p-4 xs:flex-col sm:flex-row">
 			<section class="relative w-[240px] shrink-0 self-center">
 				<picture class="flex-none">
-					<img class="h-64 w-64 rounded-full object-fill" alt="profile of me" src={me2} />
+					<img class="h-64 w-64 rounded-full object-scale-down" alt="profile of me" src={me2} />
 				</picture>
 				<div class="flex flex-col items-center gap-1 py-4">
 					<h2 class=" text-center text-2xl">Adrian Van Nierop</h2>
