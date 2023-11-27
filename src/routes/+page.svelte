@@ -127,7 +127,7 @@
 						<li>Onboard and mentor new product and data analysts.</li>
 					</ul>
 
-					<h4 class="mb-2 mt-4 text-xl">Achievements I am most proud of:</h4>
+					<h4 class="mb-2 mt-4 text-xl">Achievements so far:</h4>
 					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>
 							Identified slow website loading times as a major cause of customer churn. Using
