@@ -1,5 +1,12 @@
 <script>
-	import me from '$lib/images/me.png';
+	// import me from '$lib/images/me.png';
+	import me2 from '$lib/images/me2.png';
+	import frankie_logo from '$lib/images/Frankie_logo.svg';
+	import mars_logo from '$lib/images/Mars_logo.svg';
+	import pedigree_logo from '$lib/images/Pedigree_logo.png';
+	import asb_logo from '$lib/images/ASB_logo.png';
+	import z_logo from '$lib/images/Z_logo.svg';
+	import google_logo from '$lib/images/Google_logo.png';
 	import { AccordionItem, Accordion } from 'flowbite-svelte';
 	import {
 		ChevronDoubleUpOutline,
@@ -14,23 +21,23 @@
 	<meta name="description" content="A web-app all about me" />
 </svelte:head>
 
-<section class="w-screen justify-center gap-x-4 bg-gray-100 py-4 xs:flex sm:hidden">
+<section class="w-screen justify-center gap-x-8 bg-gray-100 xs:flex sm:hidden">
 	<picture class="flex-none">
-		<img class="object-center" alt="profile of me" src={me} />
+		<img class="h-24 w-24 object-center" alt="profile of me" src={me2} />
 	</picture>
 
 	<div class="flex-initial self-center">
-		<h1 class="text-start text-2xl text-black">Adrian Van Nierop</h1>
+		<h1 class="text-start text-xl text-black">Adrian Van Nierop</h1>
 
-		<h1 class="text-start text-2xl text-black">Engineering Products</h1>
+		<h1 class="text-start text-xl text-black">Engineering Products</h1>
 	</div>
 </section>
 
-<section class="justify-center gap-x-8 bg-gray-100 py-4 xs:hidden sm:flex">
+<section class="justify-center gap-x-8 bg-gray-100 xs:hidden sm:flex">
 	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">Adrian Van Nierop</h1>
 
 	<picture class="flex-none">
-		<img class="object-center" alt="profile of me" src={me} />
+		<img class="h-40 w-40 object-center" alt="profile of me" src={me2} />
 	</picture>
 
 	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">
@@ -48,27 +55,32 @@
 <section
 	class="mt-4 flex w-screen gap-x-16 pb-8 xs:flex-col xs:justify-items-center xs:px-4 md:flex-row md:justify-center md:px-16"
 >
-	<div class="max-w-[840px] space-y-2 pb-8">
+	<div class="max-w-[1144px] space-y-2 pb-8">
 		<p class="pt-4">
-			I am an impact-driven product and engineering leader with a passion for software development
-			that has significant experience in strategic planning, product development and team
-			leadership. With a strong technical background, I enjoy uncovering and developing innovative
-			solutions for unmet customer needs. I'm an applied problem solver focusing on tangible
-			solutions to real problems.
+			I am an impact-driven product and engineering leader with a passion for software and product
+			development that has significant experience in strategic planning and team leadership. With a
+			strong technical background, I enjoy uncovering and developing innovative solutions for unmet
+			customer needs. I'm an applied problem solver focusing on tangible solutions to real problems.
 		</p>
 
 		<h2 class="pt-4 text-3xl">Experience</h2>
 
 		<Accordion>
-			<AccordionItem>
+			<AccordionItem open>
 				<div slot="header" class="w-full pr-8">
 					<div class="mt-8 flex flex-row items-baseline justify-between">
-						<h3 class=" text-2xl text-blue-700">Software Product Engineer</h3>
+						<h3 class=" text-2xl text-blue-700">Senior Product Engineer</h3>
 						<h5 class="pl-8 text-gray-500 md:text-lg">Aug 2023 - Present</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500">
-						Frankie - An early stage startup making software to maintain properties at scale
+					<h5 class="mb-4 text-gray-500">
+						Frankie - An early stage startup that helps automate and bring transparency to property
+						maintenance at scale.
 					</h5>
+					<div class="w-fit bg-[#004181] p-2">
+						<picture class="flex-fill">
+							<img class="h-8 object-center" alt="Frakie's logo" src={frankie_logo} />
+						</picture>
+					</div>
 				</div>
 
 				<div slot="arrowup">
@@ -78,26 +90,72 @@
 					<ChevronDoubleDownOutline class="-mr-0.5 h-3 w-3" />
 				</div>
 
+				<p class="mt-4">
+					Working with React, Django, and Google Cloud to create a platform that allows facilities
+					to understand, manage and optimise their maintenance plans.
+				</p>
+				<h4 class="mb-2 mt-4 text-xl">Responsibilities:</h4>
+				<li>Understand our customers across a range of industries.</li>
+				<li>
+					Work with our customers, business stakeholders and technical team to identify product
+					opportunities.
+				</li>
+				<li>
+					Create product roadmaps that unify technical vision, customer needs and business goals.
+				</li>
+				<li>
+					Scope solutions to their smallest coherent state to ship to customers as early as
+					possible.
+				</li>
+				<li>Work in an Agile framework using Test Driven Development.</li>
+				<li>Continuously identify and work down technical debt.</li>
+				<li>Onboard and mentor new product and data analysts.</li>
+
 				<h4 class="mb-2 mt-4 text-xl">Achievements I am most proud of:</h4>
 				<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
-					<li>Increased website load speed through database query optimizations.</li>
 					<li>
-						Allowed facilities to compare maintenance costs, with partner properties, giving them
-						competitive spending insights.
+						Identified slow website loading times as a major cause of customer churn. Using
+						analytics, identified the lowest performing parts of the product and dramatically
+						improved them with database query optimisations and intelligent data fetching,
+						decreasing customer churn by 10%.
 					</li>
+					<li>
+						Identified maintenance costs range as a major pain point for facilities. Added customer
+						value by creating dashboards allowing facilities to compare maintenance costs with
+						partner properties, giving competitive spending insights. This increased the sign-up of
+						new organisations by 20%.
+					</li>
+					<li>
+						Unlocking new customer opportunities by identifying software used by the most prominent
+						players in the industry and integrating it into our system. This led to the sign-up of
+						high-value customers.
+					</li>
+					<li>Built team culture through ownership, cross-collaboration and celebrating wins.</li>
 				</ul>
 			</AccordionItem>
 
-			<AccordionItem open>
+			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
 					<div class="mt-8 flex flex-row items-baseline justify-between">
-						<h3 class="text-2xl text-blue-700">Lead Product Engineer</h3>
+						<h3 class="text-2xl text-blue-700">Lead Technical Product Manager</h3>
 						<h5 class="pl-8 text-gray-500 md:text-lg">Feb 2021 - Jun 2023</h5>
 					</div>
 					<h5 class="mb-2 text-gray-500">Colenso BBDO - Innovation and Creative Company</h5>
-					<p class="text-gray-700">
-						Working as a Lead Product Engineer at Colenso BBDO on the Mars Product Porfolio.
+					<p class="mb-4 text-gray-700">
+						Working as a Technical Product Manager at Colenso BBDO on the Mars Product Porfolio.
 					</p>
+					<div class="flex flex-row gap-8">
+						<div class="w-fit self-center p-2">
+							<picture class="flex-fill">
+								<img class="h-8 object-center" alt="Mars's logo" src={mars_logo} />
+							</picture>
+						</div>
+						<div class="w-fit bg-[#FCC216]">
+							<picture class="flex-fill">
+								<img class="h-12 object-center" alt="Pedigree's logo" src={pedigree_logo} />
+							</picture>
+						</div>
+					</div>
 				</div>
 
 				<div slot="arrowup">
@@ -108,7 +166,7 @@
 				</div>
 
 				<Accordion>
-					<AccordionItem open>
+					<AccordionItem>
 						<div slot="header" class="w-full pr-8">
 							<h4 class="mt-4 text-xl font-semibold text-black">Mars Product Portfolio</h4>
 							<h5 class="mb-2 text-gray-500">Apr 2022 - Jun 2023</h5>
@@ -145,6 +203,18 @@
 								designed, built, tested, and deployed digital products
 							</li>
 							<li>
+								Manage the direction and plan for products, exploring opportunities with customers
+								worldwide.
+							</li>
+							<li>
+								Collaborate with teams in thinking big, unifying the technical vision, customer
+								needs and business goals to find solutions to these opportunities.
+							</li>
+							<li>
+								Scoped these solutions to their smallest coherent state to ship to customers as
+								early as possible.
+							</li>
+							<li>
 								Balancing user needs with business impact and technical feasibility by working
 								closely with product managers, product designers, engineers, quality assurance,
 								DevOps and product marketers.
@@ -153,10 +223,6 @@
 								Setting Product and Delivery Roadmaps and clearly articulating product vision,
 								business goals and customer drivers to the wider team, including engineering,
 								quality assurance, design, marketing and business.
-							</li>
-							<li>
-								Broke down product roadmap goals into well-defined pieces of work and allocated them
-								to team members
 							</li>
 							<li>Ensured the quality of output is high and technical debt is low.</li>
 							<li>
@@ -214,6 +280,10 @@
 								Leveraged existing solutions to deliver a multi-regional B2C and B2B online store in
 								3 months while delivering a bespoke user experience that talked to our client's
 								brand and vision and met KPIs.
+							</li>
+							<li>
+								Implemented an A/B testing approach across teams to rapidly experiment and drive
+								continuous improvements
 							</li>
 						</ul>
 					</AccordionItem>
@@ -343,10 +413,16 @@
 					</div>
 					<h5 class="mb-2 text-gray-500">ASB - Banking</h5>
 
-					<p class="text-gray-700">
+					<p class="mb-4 text-gray-700">
 						Working at New Zealand's largest bank as a Product Owner, I created and delivered
 						features to customers' online banking.
 					</p>
+
+					<div class="w-fit p-2">
+						<picture class="flex-fill">
+							<img class="h-8 object-center" alt="ASB's logo" src={asb_logo} />
+						</picture>
+					</div>
 				</div>
 
 				<div slot="arrowup">
@@ -396,12 +472,18 @@
 					</div>
 					<h5 class="mb-2 text-gray-500">Rush - Product Development Consultancy</h5>
 
-					<p class="text-gray-700">
+					<p class="mb-4 text-gray-700">
 						I led multidisciplinary teams on some of Z-Energy's (NZ's largest fuel company) most
 						innovative greenfield products, Sharetank and Pay-by-Plate, delivering breakthrough
 						experiences. These teams were responsible for over a million dollars of the company's
 						revenue, giving us a weighty responsibility.
 					</p>
+
+					<div class="w-fit bg-[#004181] p-2">
+						<picture class="flex-fill">
+							<img class="h-8 object-center" alt="Z Energy's logo" src={z_logo} />
+						</picture>
+					</div>
 				</div>
 
 				<div slot="arrowup">
@@ -465,11 +547,17 @@
 					</div>
 					<h5 class="mb-2 text-gray-500">Rush - Product Development Consultancy</h5>
 
-					<p class="text-gray-700">
+					<p class="mb-4 text-gray-700">
 						While at Rush, I saw the company grow from 10 to over 100 employees and undergo two
 						business model changes (Game development to Software Delivery, Software Delivery to
 						Product Consultancy), resulting in a highly focused and successful company.
 					</p>
+
+					<div class="w-fit p-2">
+						<picture class="flex-fill">
+							<img class="h-8 object-center" alt="Google's logo" src={google_logo} />
+						</picture>
+					</div>
 				</div>
 
 				<div slot="arrowup">
@@ -534,8 +622,8 @@
 			spaceships in my head.
 		</p>
 	</div>
-	<!-- <div> -->
-	<div class="xs:text-center md:max-w-[240px] md:text-left">
+
+	<!-- <div class="xs:text-center md:max-w-[240px] md:text-left">
 		<h2 class="text-3xl">Skills</h2>
 
 		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Product Management</h3>
@@ -550,6 +638,7 @@
 			<li>Human-centred design</li>
 			<li>User story mapping</li>
 			<li>Productboard, Miro, Figma</li>
+			<li>A/B Testing</li>
 		</ul>
 
 		<h3 class="mb-2 mt-4 text-2xl text-blue-700">Engineering Management</h3>
@@ -596,6 +685,5 @@
 			<li>Figma</li>
 			<li>Lucidchart</li>
 		</ul>
-	</div>
-	<!-- </div> -->
+	</div> -->
 </section>
