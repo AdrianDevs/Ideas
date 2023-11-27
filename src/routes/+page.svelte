@@ -27,20 +27,22 @@
 	</picture>
 
 	<div class="flex-initial self-center">
-		<h1 class="text-start text-xl text-black">Adrian Van Nierop</h1>
+		<h1 class="text-start text-xl text-blue-800">Adrian Van Nierop</h1>
 
-		<h1 class="text-start text-xl text-black">Engineering Products</h1>
+		<h1 class="text-start text-xl text-blue-800">Engineering Products</h1>
 	</div>
 </section>
 
 <section class="justify-center gap-x-8 bg-gray-100 xs:hidden sm:flex">
-	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">Adrian Van Nierop</h1>
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-800">
+		Adrian Van Nierop
+	</h1>
 
 	<picture class="flex-none">
 		<img class="h-40 w-40 object-center" alt="profile of me" src={me2} />
 	</picture>
 
-	<h1 class="w-320 flex-initial self-center text-center text-2xl text-black">
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-800">
 		Engineering Products
 	</h1>
 </section>
