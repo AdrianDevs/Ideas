@@ -164,7 +164,7 @@
 						Working as a Technical Product Manager at Colenso BBDO on the Mars Product Porfolio.
 					</p>
 
-					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+					<div class="mt-4 flex flex-col content-start items-start justify-start gap-2">
 						<div class="w-fit">
 							<picture class="flex-none">
 								<img class="h-14 object-scale-down" alt="Colenso's logo" src={colensobbdo_logo} />
@@ -531,18 +531,18 @@
 							Nov 2017 - Jul 2020
 						</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500 xs:text-sm sm:text-base md:text-base">
+					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
 						Rush - Product Development Consultancy
 					</h5>
 
-					<p class="mb-4 text-gray-700 xs:text-sm sm:text-base md:text-base">
+					<p class="mt-2 text-gray-700 xs:text-sm sm:text-base md:text-base">
 						I led multidisciplinary teams on some of Z-Energy's (NZ's largest fuel company) most
 						innovative greenfield products, Sharetank and Pay-by-Plate, delivering breakthrough
 						experiences. These teams were responsible for over a million dollars of the company's
 						revenue, giving us a weighty responsibility.
 					</p>
 
-					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+					<div class="mt-4 flex flex-col content-start items-start justify-start gap-2">
 						<div class="w-fit bg-black pb-2 pl-2 pr-2">
 							<picture class="flex-none">
 								<img class="h-10 object-scale-down" alt="Rush's logo" src={rush_logo} />
@@ -632,17 +632,17 @@
 							Dec 2011 - Nov 2017
 						</h5>
 					</div>
-					<h5 class="mb-2 text-gray-500 xs:text-sm sm:text-base md:text-base">
+					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
 						Rush - Product Development Consultancy
 					</h5>
 
-					<p class="mb-4 text-gray-700 xs:text-sm sm:text-base md:text-base">
+					<p class="mt-2 text-gray-700 xs:text-sm sm:text-base md:text-base">
 						While at Rush, I saw the company grow from 10 to over 100 employees and undergo two
 						business model changes (Game development to Software Delivery, Software Delivery to
 						Product Consultancy), resulting in a highly focused and successful company.
 					</p>
 
-					<div class="mt-2 flex flex-col content-start items-start justify-start gap-2">
+					<div class="mt-4 flex flex-col content-start items-start justify-start gap-2">
 						<div class="w-fit bg-black pb-2 pl-2 pr-2">
 							<picture class="flex-none">
 								<img class="h-10 object-scale-down" alt="Rush's logo" src={rush_logo} />
