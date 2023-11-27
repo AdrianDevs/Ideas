@@ -181,7 +181,7 @@
 								</div>
 								<div class="w-fit bg-[#FCC216]">
 									<picture class="flex-fill">
-										<img class="h-10 object-scale-down" alt="Pedigree's logo" src={pedigree_logo} />
+										<img class="h-12 object-scale-down" alt="Pedigree's logo" src={pedigree_logo} />
 									</picture>
 								</div>
 							</div>
