@@ -107,24 +107,28 @@
 						to understand, manage and optimise their maintenance plans.
 					</p>
 					<h4 class="mb-2 mt-4 text-xl">Responsibilities:</h4>
-					<li>Understand our customers across a range of industries.</li>
-					<li>
-						Work with our customers, business stakeholders and technical team to identify product
-						opportunities.
-					</li>
-					<li>
-						Create product roadmaps that unify technical vision, customer needs and business goals.
-					</li>
-					<li>
-						Scope solutions to their smallest coherent state to ship to customers as early as
-						possible.
-					</li>
-					<li>Work in an Agile framework using Test Driven Development.</li>
-					<li>Continuously identify and work down technical debt.</li>
-					<li>Onboard and mentor new product and data analysts.</li>
+
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
+						<li>Understand our customers across a range of industries.</li>
+						<li>
+							Work with our customers, business stakeholders and technical team to identify product
+							opportunities.
+						</li>
+						<li>
+							Create product roadmaps that unify technical vision, customer needs and business
+							goals.
+						</li>
+						<li>
+							Scope solutions to their smallest coherent state to ship to customers as early as
+							possible.
+						</li>
+						<li>Work in an Agile framework using Test Driven Development.</li>
+						<li>Continuously identify and work down technical debt.</li>
+						<li>Onboard and mentor new product and data analysts.</li>
+					</ul>
 
 					<h4 class="mb-2 mt-4 text-xl">Achievements I am most proud of:</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>
 							Identified slow website loading times as a major cause of customer churn. Using
 							analytics, identified the lowest performing parts of the product and dramatically
@@ -232,7 +236,7 @@
 								the right time and works towards a common goal.
 							</p>
 							<h4 class="mb-2 mt-4 text-xl font-semibold">Key responsibilities:</h4>
-							<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+							<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 								<li>
 									Led two multidisciplinary teams comprising frontend developers, backend
 									developers, solution architects, product owners, UI/UX/CX designers and QA testers
@@ -274,7 +278,7 @@
 								<li>Mentored and upskilled junior product owners and engineers.</li>
 							</ul>
 							<h4 class="mb-2 mt-4 text-xl font-semibold">Key achievements:</h4>
-							<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+							<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 								<li>
 									Successfully advocated for and introduced Agile and Product thinking into the
 									digital department, hugely improving output and impact.
@@ -364,7 +368,7 @@
 							</blockquote>
 
 							<h4 class="mb-2 mt-4 text-xl font-semibold">Responsibilities:</h4>
-							<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+							<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 								<li>
 									Leading eight-plus individuals comprising frontend developers, backend developers,
 									solution architects, product owners, UI/UX/CX designers and QA testers that
@@ -388,7 +392,7 @@
 							<h6 class="text-l mb-2 mt-4 text-lg font-semibold">
 								Working with the development team, I identified the following areas for improvement:
 							</h6>
-							<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+							<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 								<li>Lack of trust between the development team and management.</li>
 								<li>No product roadmap or prioritised backlog.</li>
 								<li>The development team did not understand the product vision or goals.</li>
@@ -403,7 +407,7 @@
 							<h6 class="text-l mb-2 mt-4 text-lg font-semibold">
 								Over the next few months, I implemented the following solutions in order:
 							</h6>
-							<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+							<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 								<li>
 									Practised a servant leadership philosophy with team members, with openness and
 									transparency, where anyone could ask any question.
@@ -505,7 +509,7 @@
 					<h4 class="mb-2 mt-4 text-xl font-semibold">
 						Working on the above feature, I performed the following duties:
 					</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>Set feature KPIs that fed into business KPIs.</li>
 						<li>Identified all business areas that were touched and their business rules.</li>
 						<li>Understood the technical ability of each of the identified systems.</li>
@@ -585,7 +589,7 @@
 					<h4 class="mb-2 mt-4 text-xl font-semibold">
 						Below are some of the many tasks I performed:
 					</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>
 							Ran multiple multidisciplinary product teams of six-plus individuals following Agile
 							principles.
@@ -610,7 +614,7 @@
 						</li>
 					</ul>
 					<h4 class="mb-2 mt-4 text-xl font-semibold">Outcomes:</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>Delivered Sharetank with zero overtime on time.</li>
 						<li>Met Pay-by-Plate's and Sharetank's KPIs, proving its business worth.</li>
 						<li>
@@ -701,7 +705,7 @@
 						ownership and delivery as a developer.
 					</p>
 					<h4 class="mb-2 mt-4 text-xl font-semibold">Key Responsibilities:</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>
 							Frontend development in Typescript, Java, Kotlin, Object-C and Swift with Android
 							Native, iOS Native, React Native and React.
@@ -719,7 +723,7 @@
 						</li>
 					</ul>
 					<h4 class="mb-2 mt-4 text-xl font-semibold">Key Achievements:</h4>
-					<ul class="list-outside list-disc space-y-1 pl-4 text-gray-700">
+					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
 						<li>Promoted from Software Developer to Tech Lead.</li>
 						<li>Worked with Google to build a digital swear jar using NLP.</li>
 						<li>Worked with Google to create a mobility assistance app.</li>
