@@ -32,14 +32,14 @@
 	</picture>
 
 	<div class="flex-initial self-center">
-		<h1 class="text-start text-xl text-blue-800">Adrian Van Nierop</h1>
+		<h1 class="text-start text-xl text-blue-700">Adrian Van Nierop</h1>
 
-		<h1 class="text-start text-xl text-blue-800">Engineering Products</h1>
+		<h1 class="text-start text-xl text-blue-700">Engineering Products</h1>
 	</div>
 </section>
 
 <section class="justify-center gap-x-8 bg-gray-100 xs:hidden sm:flex">
-	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-800">
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-700">
 		Adrian Van Nierop
 	</h1>
 
@@ -47,7 +47,7 @@
 		<img class="h-40 w-40 object-center" alt="profile of me" src={me2} />
 	</picture>
 
-	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-800">
+	<h1 class="w-320 flex-initial self-center text-center text-2xl text-blue-700">
 		Engineering Products
 	</h1>
 </section>
@@ -84,8 +84,8 @@
 						</h5>
 					</div>
 					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
-						Frankie - An early stage startup that helps automate and bring transparency to property
-						maintenance at scale.
+						Frankie Technologies - An early stage startup that helps automate and bring transparency
+						to property maintenance at scale.
 					</h5>
 					<div class="mt-4 w-fit bg-[#004181] py-2">
 						<picture class="flex-fill">

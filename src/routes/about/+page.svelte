@@ -1,5 +1,4 @@
 <script>
-	import me from '$lib/images/happiness-squared.webp';
 	import me2 from '$lib/images/Amsterdam.png';
 	import GitHub from 'virtual:icons/mdi/github';
 	import LinkedIn from 'virtual:icons/mdi/linkedin';
@@ -17,8 +16,8 @@
 
 		<div class="flex justify-center gap-16 p-4 xs:flex-col sm:flex-row">
 			<section class="relative w-[240px] shrink-0 self-center">
-				<picture class="flex-none">
-					<img class="h-64 w-64 rounded-full object-scale-down" alt="profile of me" src={me2} />
+				<picture>
+					<img class="h-64 w-64 rounded-full object-cover" alt="profile of me" src={me2} />
 				</picture>
 				<div class="flex flex-col items-center gap-1 py-4">
 					<h2 class=" text-center text-2xl">Adrian Van Nierop</h2>
