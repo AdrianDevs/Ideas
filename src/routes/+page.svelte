@@ -220,13 +220,13 @@
 
 						<div class="xs:text-sm sm:text-base md:text-base">
 							<p class="mt-4">
-								Reporting directly to the Head of Innovation at Colenso, responsible for delivering
-								a $5M digital portfolio of SAAS products for Mars, an American multinational
-								manufacturer of confectionery, pet food, and other food products and a provider of
-								animal care services. Many of the products delivered were greenfield and included
-								the MyHooman animal shelter and adoption platform, Pedigree GoodPoints rewards
-								program and Zevia naturally sweetened drinks. These products innovated their fields
-								by using AI, Image recognition and Web3 technologies such as blockchain.
+								As the Lead Technical Product Manager at Colenso, I reported directly to the Head of
+								Innovation, overseeing the successful delivery of a $5M digital portfolio of SAAS
+								products for Mars, a prominent American multinational. Spearheading this initiative
+								involved introducing groundbreaking products such as the MyHooman animal shelter and
+								adoption platform, Pedigree GoodPoints rewards program, and Zevia naturally
+								sweetened drinks, all of which redefined their respective industries by leveraging
+								AI, image recognition, and Web3 technologies, notably blockchain.
 							</p>
 							<p class="mt-4">
 								I achieved this by setting product goals and KPIs and galvanising our rapidly
@@ -332,6 +332,11 @@
 									continuous improvements
 								</li>
 							</ul>
+							<p class="mt-4">
+								This experience reflects my adeptness in steering complex product portfolios,
+								fostering innovation, and driving cross-functional collaboration, resulting in
+								tangible business growth and market-leading solutions.
+							</p>
 						</div>
 					</AccordionItem>
 					<AccordionItem>
