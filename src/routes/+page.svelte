@@ -105,9 +105,10 @@
 
 				<div class="xs:text-sm sm:text-base md:text-base">
 					<p class="mt-4">
-						Working with React, Typescript, Javascript, Python, Django, PostgreSQL, and Google Cloud
-						to create a platform that allows facilities to understand, manage and optimise their
-						maintenance plans.
+						Juggling Software Engineering and Product Management, I work with stakeholders using
+						React, Typescript, Javascript, Python, Django, PostgreSQL, and Google Cloud to create a
+						platform that allows facilities to understand, manage and optimise their maintenance
+						plans.
 					</p>
 					<h4 class="mb-2 mt-4 text-xl">Responsibilities:</h4>
 
