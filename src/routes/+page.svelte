@@ -64,10 +64,12 @@
 >
 	<div class="max-w-[1144px] space-y-2 pb-8">
 		<p class="pt-4">
-			I am an impact-driven product and engineering leader with a passion for software and product
-			development that has significant experience in strategic planning and team leadership. With a
-			strong technical background, I enjoy uncovering and developing innovative solutions for unmet
-			customer needs. I'm an applied problem solver focusing on tangible solutions to real problems.
+			I am an impact-driven engineering and product leader with a passion for software and product
+			development. With a career at the intersection of engineering and product management, I've
+			developed a knack for leading teams toward innovative solutions that drive significant
+			business growth. With a strong technical background, I enjoy uncovering and developing
+			innovative solutions for unmet customer needs. I'm an applied problem solver focusing on
+			tangible solutions to real problems.
 		</p>
 
 		<h2 class="pt-4 text-3xl">Experience</h2>
@@ -77,15 +79,15 @@
 				<div slot="header" class="w-full pr-8">
 					<div class="mt-8 flex flex-row items-center justify-between">
 						<h3 class="text-blue-700 xs:text-xl sm:text-2xl md:text-2xl">
-							Senior Product Engineer
+							Senior Software Engineer
 						</h3>
 						<h5 class="w-32 pl-8 text-gray-500 xs:text-xs sm:text-sm md:w-fit md:text-lg">
 							Aug 2023 - Present
 						</h5>
 					</div>
 					<h5 class="text-gray-500 xs:text-sm sm:text-base md:text-base">
-						Frankie Technologies - An early stage startup that helps automate and bring transparency
-						to property maintenance at scale.
+						Frankie, a tech startup that helps automate and bring transparency to property
+						maintenance at scale with their enterprise B2B SaaS product offering.
 					</h5>
 					<div class="mt-4 w-fit bg-[#004181] py-2">
 						<picture class="flex-fill">
@@ -103,8 +105,9 @@
 
 				<div class="xs:text-sm sm:text-base md:text-base">
 					<p class="mt-4">
-						Working with React, Django, and Google Cloud to create a platform that allows facilities
-						to understand, manage and optimise their maintenance plans.
+						Working with React, Typescript, Javascript, Python, Django, PostgreSQL, and Google Cloud
+						to create a platform that allows facilities to understand, manage and optimise their
+						maintenance plans.
 					</p>
 					<h4 class="mb-2 mt-4 text-xl">Responsibilities:</h4>
 
@@ -124,11 +127,33 @@
 						</li>
 						<li>Work in an Agile framework using Test Driven Development.</li>
 						<li>Continuously identify and work down technical debt.</li>
-						<li>Onboard and mentor new product and data analysts.</li>
+						<li>Onboard and mentor new engineerins, product and data analysts.</li>
+						<li>
+							Set and maintain high technical standard in security, scalability and reliability.
+						</li>
+						<li>Write and release code.</li>
 					</ul>
 
 					<h4 class="mb-2 mt-4 text-xl">Achievements so far:</h4>
 					<ul class="list-outside list-disc space-y-1 pl-8 text-gray-700">
+						<li>
+							Increased performance and reliability by spearheading the identification,
+							prioritisation, and improvement of system performance bottlenecks. This resulted in a
+							10x performance increase and allowed us to expand confidently to larger customers.
+						</li>
+						<li>
+							Development of a Product Strategy and Roadmap that was presented to and accepted by
+							the board of investors, unlocking further funding.
+						</li>
+						<li>
+							Mainted delivery momentum with a servant leadership approach and tight stakeholder
+							management, allowing us to achieve our roadmap milestones.
+						</li>
+						<li>
+							Doubled acquisition with API Integrations targeted to unlock new customer segments
+							while complimenting our product goals. Increased sales by developing dashboards that
+							delivered the right information to customers.
+						</li>
 						<li>
 							Identified slow website loading times as a major cause of customer churn. Using
 							analytics, identified the lowest performing parts of the product and dramatically
@@ -154,9 +179,7 @@
 			<AccordionItem>
 				<div slot="header" class="w-full pr-8">
 					<div class="mt-8 flex flex-row items-center justify-between">
-						<h3 class="text-blue-700 xs:text-xl sm:text-2xl md:text-2xl">
-							Lead Technical Product Manager
-						</h3>
+						<h3 class="text-blue-700 xs:text-xl sm:text-2xl md:text-2xl">Engineering Manager</h3>
 						<h5 class="w-32 pl-8 text-gray-500 xs:text-xs sm:text-sm md:w-fit md:text-lg">
 							Feb 2021 - Jun 2023
 						</h5>
@@ -165,7 +188,7 @@
 						Colenso BBDO - Innovation and Creative Company
 					</h5>
 					<p class="mt-2 text-gray-700 xs:text-sm sm:text-base md:text-base">
-						Working as a Technical Product Manager at Colenso BBDO on the Mars Product Porfolio.
+						Working as a Engineering Manager at Colenso BBDO on the Mars Product Porfolio.
 					</p>
 
 					<div class="mt-4 flex flex-col content-start items-start justify-start gap-2">
@@ -220,7 +243,7 @@
 
 						<div class="xs:text-sm sm:text-base md:text-base">
 							<p class="mt-4">
-								As the Lead Technical Product Manager at Colenso, I reported directly to the Head of
+								As the Engineering Manager at Colenso, I reported directly to the Head of
 								Innovation, overseeing the successful delivery of a $5M digital portfolio of SAAS
 								products for Mars, a prominent American multinational. Spearheading this initiative
 								involved introducing groundbreaking products such as the MyHooman animal shelter and
