@@ -35,12 +35,12 @@
 			<section>
 				<p class="pb-4">
 					Adrian Van Nierop lives and works in Auckland, New Zealand, and is psyched about
-					everything software and product. He is a full-time product engineer, a part-time microbrew
-					enthusiast, and a sometimes mountain biker.
+					everything software and product. He is a full-time software engineer, a part-time
+					microbrew enthusiast, and a sometimes mountain biker.
 				</p>
 				<p class="pb-4">
-					Adrian is an Product Engineer at Frankie and specialises in SAAS Products. He has over 15+
-					years of professional experience in designing, building and delivering software with a
+					Adrian is an Software Engineer at Frankie and specialises in SAAS Products. He has over
+					15+ years of professional experience in designing, building and delivering software with a
 					keen focus on product viability and user desirability.
 				</p>
 				<p class="pb-4">
