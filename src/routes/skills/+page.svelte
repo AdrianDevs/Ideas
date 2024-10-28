@@ -53,9 +53,9 @@
 				<h3 class="mb-2 mt-4 text-2xl text-blue-700">Tech</h3>
 				<ul class="list-inside list-none space-y-1 text-gray-700">
 					<li>Solution Architecture</li>
-					<li>AWS and Azure hosting</li>
+					<li>AWS, Goolge Cloud, and Azure hosting</li>
+					<li>PostgreSQL</li>
 					<li>Microservices</li>
-					<li>AI, Image Recognition and NLP</li>
 					<li>Data science and analysis</li>
 					<li>CI/CD</li>
 					<li>C4 Diagrams</li>
